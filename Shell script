@@ -1,0 +1,78 @@
+#!/bin/bash
+
+echo "Starter stresstesting av konteineren ..."
+resultatfil="sysbench_resultater.txt"
+
+# Sørger for at filen er tom før vi starter
+echo "" > "$resultatfil"
+
+# Definerer array for trådantall og cpu-max-prime verdier
+threads=(1 2)
+primes=(10000 20000 30000)
+
+# Ytre løkke for antall tråder
+for t in "${threads[@]}"; do
+  # Indre løkke for cpu-max-prime verdiene
+  for p in "${primes[@]}"; do
+    # Kjører testen 10 ganger
+    for i in {1..10}; do
+      echo "Test $i: Starter CPU-test med ${t} tråd(er) og cpu-max-prime=${p} for 30 sekunder..." >> "$resultatfil"
+      # Kjører sysbench med tidsbegrensning
+      output=$(sysbench cpu --cpu-max-prime="$p" --threads="$t" --time=30 run)
+      echo "$output" | grep -E "total time|total number of events" >> "$resultatfil"
+      echo "Tråder: ${t}, cpu-max-prime=${p}, Test $i fullført" >> "$resultatfil"
+      echo "--------------------------------------------------" >> "$resultatfil"
+      sleep 5
+    done
+  done
+done
+
+# Minnetest 1 - Lese
+echo "Starter minnetest i lesemodus ..."
+output=$(sysbench memory --memory-block-size=128M --memory-total-size=1G --memory-oper=read --threads=1 run)
+#Justere grep
+filtered_output=$(echo "$output" | grep -oP "\d+(\.\d+)? MiB transferred \(\d+(\.\d+)? MiB/sec\)" | uniq)
+
+echo "Lese: $filtered_output" >> "$resultatfil"
+echo "Minnetest i lesemodus fullført." >> "$resultatfil"
+echo "--------------------------------------------------" >> "$resultatfil"
+sleep 5
+
+# Minnetest 2 - Skrive
+echo "Starter minnetest i skrivemodus ..."
+output=$(sysbench memory --memory-block-size=128M --memory-total-size=1G --memory-oper=write --threads=1 run)
+filtered_output=$(echo "$output" | grep -oP "\d+(\.\d+)? MiB transferred \(\d+(\.\d+)? MiB/sec\)" | uniq)
+
+echo "Skrive: $filtered_output" >> "$resultatfil"
+echo "Minnetest i skrivemodus fullført." >> "$resultatfil"
+echo "--------------------------------------------------" >> "$resultatfil"
+sleep 5
+
+
+echo "Testene er fullført og resultatene er lagret i $resultatfil."
+
+# Disk I/O-test 1
+echo "Forbereder Disk I/O-test 1 ..."
+sysbench fileio prepare --file-total-size=1G
+echo "Starter Disk I/O-test med lese belastning ..."
+output=$(sysbench fileio --file-total-size=1G --file-test-mode=seqrd --max-time=60 --max-requests=0 run)
+echo "Disk I/O Lese Test:" >> "$resultatfil"
+echo "$output" | grep -E "reads/s|read, MiB/s" >> "$resultatfil"
+echo "--------------------------------------------------" >> "$resultatfil"
+echo "Disk I/O-test fullført."
+sysbench fileio cleanup
+sleep 5
+
+# Disk I/O-test 2
+echo "Forbereder Disk I/O test 2 ..."
+sysbench fileio prepare --file-total-size=1G
+echo "Starter Disk I/O-test med skrive belastning ..."
+output=$(sysbench fileio --file-total-size=1G --file-test-mode=seqwr --max-time=60 --max-requests=0 run)
+echo "Disk I/O Skrive Test:" >> "$resultatfil"
+echo "$output" | grep -E "writes/s|written, MiB/s|fsyncs/s" >> "$resultatfil"
+echo "--------------------------------------------------" >> "$resultatfil"
+echo "Disk I/O-test fullført."
+sysbench fileio cleanup
+sleep 5
+
+echo "Alle tester fullført. Systemet ble testet til sine yttergrenser."
