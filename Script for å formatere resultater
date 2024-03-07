@@ -1,0 +1,136 @@
+# Importerer nødvendige biblioteker: pandas for datahåndtering og matplotlib.pyplot for data visualisering
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Initialiserer tomme lister for å lagre data uttrukket fra tekstfilen
+test_nummer = []  # Holder på unike identifikatorer for hver test
+tråder = []       # Lagrer antall tråder brukt i hver test
+cpu_max_prime = [] # Lagrer øvre grense for primtallsgenereringen i CPU-testene
+total_tid = []     # Samler total kjøretid for hver test
+total_events = []  # Teller antall hendelser (events) som ble fullført i hver test
+
+# Åpner resultatfilen for lesing. 'with'-konteksten sørger for at filen lukkes automatisk etter bruk
+with open('sysbench_resultater.txt', 'r') as file:
+    # Itererer over hver linje i filen
+    for line in file:
+        # Fjerner mellomrom fra start/slutt av linjen for enklere datahåndtering
+        line = line.strip()
+        # Sjekker om linjen indikerer starten av en CPU-test og ekstraherer relevant informasjon
+        if 'Starter CPU-test' in line:
+            # Deler linjen inn i segmenter basert på mellomrom
+            parts = line.split()
+            # Går gjennom hvert segment for å finne og lagre data om tråder og cpu-max-prime verdien
+            for part in parts:
+                if 'tråd(er)' in part:
+                    # Antallet tråder finnes rett før 'tråd(er)' i teksten
+                    current_tråder = parts[parts.index(part) - 1]
+                if 'cpu-max-prime=' in part:
+                    # Verdien etter 'cpu-max-prime=' angir grensen for primtallsgenerering
+                    current_cpu_max_prime = part.split('=')[1]
+        # Sjekker og ekstraherer total kjøretid fra linjen
+        elif 'total time:' in line:
+            # Splitter linjen og henter tidsverdien, fjerner 's' for sekunder, og konverterer
+            current_total_tid = float(line.split()[2].rstrip('s'))
+        # Sjekker og ekstraherer totalt antall hendelser fra linjen
+        elif 'total number of events:' in line:
+            # Splitter linjen og henter antall hendelser, konverterer til heltall
+            current_total_events = int(line.split()[4])
+        # Når en test er fullført, lagres alle innsamlede verdier i de tilhørende listene
+        if line.endswith('fullført'):
+            # Testnummeret er det første tallet i linjen, fjerner komma og lagrer
+            current_test_nummer = line.split()[1].rstrip(',')
+            test_nummer.append(int(current_test_nummer))
+            tråder.append(int(current_tråder))
+            cpu_max_prime.append(int(current_cpu_max_prime))
+            total_tid.append(current_total_tid)
+            total_events.append(current_total_events)
+
+# Oppretter en pandas DataFrame fra de innsamlede listene for enklere datahåndtering og analyse
+df = pd.DataFrame({
+    'TestNummer': test_nummer,
+    'Tråder': tråder,
+    'CpuMaxPrime': cpu_max_prime,
+    'TotalTid': total_tid,
+    'TotalEvents': total_events
+})
+
+# Definerer unike verdier for cpu-max-prime og tilhørende farger for plotting
+cpumaxprime_values = [10000, 20000, 30000]  # De forskjellige konfigurasjonene som ble testet
+colors = ['blue', 'green', 'red']  # Fargekoding for hver konfigurasjon i plottene
+
+# Genererer og lagrer plott for hver kombinasjon av tråder og cpu-max-prime konfigurasjoner
+for i, cpumaxprime in enumerate(cpumaxprime_values):
+    for j, tråder in enumerate([1, 2]):  # Her ble det kun ble testet med 1 og 2 tråder
+        # Filtrerer DataFrame basert på nåværende cpu-max-prime og tråder for å isolere dataene for plotting
+        filtered_df = df[(df['CpuMaxPrime'] == cpumaxprime) & (df['Tråder'] == tråder)]
+        plt.figure(figsize=(6, 4))  # Setter størrelsen på plottet
+        # Plott antall hendelser over tid for hver test, merket med punkter og linjer
+        plt.plot(filtered_df.index, filtered_df['TotalEvents'], marker='o', linestyle='-', color=colors[i])
+        # Beregner og tegner inn en horisontal linje for gjennomsnittlig antall hendelser
+        average_total_events = filtered_df['TotalEvents'].mean()
+        plt.axhline(average_total_events, color='black', linestyle='--', label=f'Gjennomsnitt: {average_total_events:.2f}')
+        # Setter tittel, aksenavn, og "legend" for plottet
+        plt.title(f'Tråder = {tråder}, CpuMaxPrime = {cpumaxprime}')
+        plt.xticks(filtered_df.index, [f"Test {k+1}" for k in range(len(filtered_df))], rotation=45)
+        plt.xlabel('Test')
+        plt.ylabel('Total Events')
+        plt.legend()
+        # Lagrer plottet til en fil og lukker figuren
+        plt.savefig(f'sysbench_resultater_{cpumaxprime}_trader_{tråder}.png')
+        plt.close()
+
+# Gjentar en lignende prosess som ovenfor for å parse, analysere og visualisere data for minne- og disk I/O-tester
+minne_lesehastighet = []
+minne_skrivehastighet = []
+disk_io_lese_ops = []
+disk_io_skrive_ops = []
+
+# Åpner samme fil igjen for å hente ut data relatert til minne- og disk I/O-testene
+with open('sysbench_resultater.txt', 'r') as file:
+    for line in file:
+        line = line.strip()
+        # Parser og lagrer minne lesehastighet fra linjen
+        if 'Lese:' in line:
+            hastighet = float(line.split('(')[1].split()[0])
+            minne_lesehastighet.append(hastighet)
+        # Parser og lagrer minne skrivehastighet fra linjen
+        elif 'Skrive:' in line:
+            hastighet = float(line.split('(')[1].split()[0])
+            minne_skrivehastighet.append(hastighet)
+        # Parser og lagrer disk I/O leseoperasjoner per sekund fra linjen
+        elif 'reads/s:' in line:
+            disk_io_lese_ops.append(float(line.split()[1]))
+        # Parser og lagrer disk I/O skriveoperasjoner per sekund fra linjen
+        elif 'writes/s:' in line:
+            disk_io_skrive_ops.append(float(line.split()[1]))
+
+# Oppretter separate DataFrames for minne og disk I/O-data
+df_minne = pd.DataFrame({'Lesehastighet': minne_lesehastighet, 'Skrivehastighet': minne_skrivehastighet})
+
+# Sjekker om DataFrame for minnetesten inneholder data før plotting
+if not df_minne.empty:
+    plt.figure(figsize=(10, 6))  # Definerer figurdimensjonene
+    # Plott av minnetestresultatene som stolpediagram
+    df_minne.plot(kind='bar', color=['blue', 'red'])
+    plt.title('Minnetest - Lese og Skrive Hastighet')
+    plt.xlabel('Test Tilfelle')
+    plt.ylabel('MiB/sec')
+    plt.xticks(rotation=0)  # Sørger for at x-aksene ikke roteres
+    plt.legend()
+    plt.tight_layout()  # Optimerer layout
+    plt.savefig('minnetest.png')  # Lagrer plottet til fil
+    plt.close()  # Lukker figuren
+
+df_disk_io = pd.DataFrame({'LeseOperasjoner': disk_io_lese_ops, 'SkriveOperasjoner': disk_io_skrive_ops})
+
+# Sjekker om DataFrame for disk I/O-testen inneholder data før plotting
+if not df_disk_io.empty:
+    plt.figure(figsize=(10, 6))
+    # Plott av disk I/O-testresultatene som stolpediagram
+    plt.bar(test_labels, values, color=['green', 'orange'], width=0.7)
+    plt.title('Disk I/O - Lese og skrive operasjoner')
+    plt.ylabel('Operasjoner per sekund')
+    plt.xticks(range(len(test_labels)), test_labels)  # Definerer x-akse
+    plt.tight_layout()
+    plt.savefig('disk_io.png')  # Lagrer plottet til fil
+    plt.close()  # Lukker figuren
