@@ -51,28 +51,26 @@ sleep 5
 
 echo "Testene er fullført og resultatene er lagret i $resultatfil."
 
-# Disk I/O-test 1
-echo "Forbereder Disk I/O-test 1 ..."
-sysbench fileio prepare --file-total-size=1G
-echo "Starter Disk I/O-test med lese belastning ..."
-output=$(sysbench fileio --file-total-size=1G --file-test-mode=seqrd --max-time=60 --max-requests=0 run)
-echo "Disk I/O Lese Test:" >> "$resultatfil"
-echo "$output" | grep -E "reads/s|read, MiB/s" >> "$resultatfil"
-echo "--------------------------------------------------" >> "$resultatfil"
-echo "Disk I/O-test fullført."
-sysbench fileio cleanup
-sleep 5
+# Disk I/O test
+kjor_fio_test () {
+  modus="$1" # write eller read
+  echo "Starter $modus test ..." >> "$resultatfil"
+  output=$(fio --name=seq_"$modus"_test --ioengine=sync --rw="$modus" --bs=1M --direct=1 --iodepth=2 --size=2G --numjobs=1 --runtime=60 --filename=/home/tropisk/Bachelor/vm/testfile --group_reporting)
+  
+  # Lagrer fullstendig output i en separat fil for gjennomgang
+  echo "$output" >> "fio_full_output_$modus.txt"
+  
+  # Ekstraherer IOPS-verdien ved hjelp av grep og Perl-kompatible regex-uttrykk
+  iops=$(echo "$output" | grep "IOPS=" | grep -oP "(?<=IOPS=)\d+")
+  
+  # Skriver filtrert resultat for IOPS til resultatfilen
+  echo "Sekvensiell $modus: IOPS = $iops" >> "$resultatfil"
+  echo "Fio $modus test fullført." >> "$resultatfil"
+  echo "--------------------------------------------------" >> "$resultatfil"
+}
 
-# Disk I/O-test 2
-echo "Forbereder Disk I/O test 2 ..."
-sysbench fileio prepare --file-total-size=1G
-echo "Starter Disk I/O-test med skrive belastning ..."
-output=$(sysbench fileio --file-total-size=1G --file-test-mode=seqwr --max-time=60 --max-requests=0 run)
-echo "Disk I/O Skrive Test:" >> "$resultatfil"
-echo "$output" | grep -E "writes/s|written, MiB/s|fsyncs/s" >> "$resultatfil"
-echo "--------------------------------------------------" >> "$resultatfil"
-echo "Disk I/O-test fullført."
-sysbench fileio cleanup
-sleep 5
+# Kjører fio-tester for sekvensiell skriving og lesing
+kjor_fio_test write
+kjor_fio_test read
 
 echo "Alle tester fullført. Systemet ble testet til sine yttergrenser."
