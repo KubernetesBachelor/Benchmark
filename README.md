@@ -1,3 +1,4 @@
+#Hvordan sette opp og kjøre scriptet
 Først lager du Dockerfile
 
 Deretter lager du shell scriptet
