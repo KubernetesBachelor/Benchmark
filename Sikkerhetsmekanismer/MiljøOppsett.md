@@ -1,5 +1,5 @@
 ##Forutsetninger
-Minikube 
+Minikube <br />
 Kubectl  
 ##Helm
 '''
