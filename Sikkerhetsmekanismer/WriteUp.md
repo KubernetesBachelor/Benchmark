@@ -58,5 +58,6 @@ Ved å kjøre kommandoen "kubectl apply -f <*.yaml>" på alle filene vil Role Ba
 
 ## Ytelse Script
 "stress_test.sh" er bash scriptet som gjennomfører ytelsestestene ved å bruke verktøyene sysbench og fio. Scriptet blir benyttet i "Dockerfile" for å lage et image med navn "stresstest:v1". Dette Docker imaget blir brukt for å kjøre en Job ut ifra filen "stresstest-job.yaml". Denne Job'en krever at det finnes en PersistenVolume og en PersistentVolumeChain, men disse blir ikke brukt. Yaml filene for disse er "stresstest-pvc.yaml" og "stresstest-pvc.yaml". <br />
+<br />
 Etter at scriptet har kjørt ferdig vil resultatene kunne blitt hentet ut ved sjekke loggene til poden som har navn "stresstest-<podID>".
 
