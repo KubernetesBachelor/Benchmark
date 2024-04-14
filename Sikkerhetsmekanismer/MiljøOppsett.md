@@ -29,3 +29,6 @@ kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-passwor
 ```
 Videre ble prometheus lagt til som datakilde ved å tilknytte IP'en som ble gitt når prometheus sin service ble eksponert. <br />
 Grafana ble satt opp med dashboard Node Exporter, ID:1860
+
+### Kilder
+[Denne Guiden]([https://pages.github.com/](https://medium.com/@gayatripawar401/deploy-prometheus-and-grafana-on-kubernetes-using-helm-5aa9d4fbae66)) ble fulgt for å sette opp Grafana og Prometheus <br />
