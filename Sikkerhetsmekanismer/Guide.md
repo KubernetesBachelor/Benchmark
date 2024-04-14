@@ -1,4 +1,4 @@
-##Miljø Oppsett
+## Miljø Oppsett
 ### Forutsetninger <br />
 Minikube <br />
 Kubectl  <br />
