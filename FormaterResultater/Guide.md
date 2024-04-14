@@ -1,6 +1,6 @@
 ### Hvordan formattere og plotte CPU grafene
 Benytt parse_txt_til_csv.py for å omgjøre en og en resultatfil fra hvert system til sin egen .csv fil.
-parse_txt_til_csv.py krever at det ligger filer med navn Resultater.txt i samme mappe som skriptet kjøres fra.
+parse_txt_til_csv.py krever at det ligger filer med navn "Resultater.txt" i samme mappe som skriptet kjøres fra.
 
 PlotScriptCPU.py tar inn 4 .csv filer med navn "parset_cpu_resultater_Konteiner.csv", "parset_cpu_resultater_VM.csv", "parset_cpu_resultater_Native.csv" og "parset_cpu_resultater_Kubernetes.csv" og bruker disse for å produsere en figur med fire grafer.
 
