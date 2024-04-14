@@ -40,5 +40,8 @@ Et eksempel på en slik Service Account er laget i "job-SA.yaml" <br />
 En RBAC settes opp ved å lage en Role som inneholder hvilke rettigheter en skal ha tilgjengelig, og en Role Binding som knytter rettighetene til et Namespace (i dette tilfellet). <br />
 Role er laget i "job-role.yaml" <br />
 RoleBinding er laget i "job-rolebinding.yaml" <br />
-
+<br />
 Ved å kjøre kommandoen "kubectl apply -f <*.yaml>" på alle filene vil Role Based Access Control være satt opp. <br />
+<br />
+
+
