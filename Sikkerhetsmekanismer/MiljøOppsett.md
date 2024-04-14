@@ -27,5 +27,5 @@ Bruk følgende kommando for å hente passord til Grafana, brukernavnet er "admin
 ```
 kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-password}" | ForEach-Object { [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($_)) }
 ```
-Videre ble prometheus lagt til som datakilde ved å tilknytte IP'en som ble gitt når prometheus sin service ble eksponert.
+Videre ble prometheus lagt til som datakilde ved å tilknytte IP'en som ble gitt når prometheus sin service ble eksponert. <br />
 Grafana ble satt opp med dashboard Node Exporter, ID:1860
