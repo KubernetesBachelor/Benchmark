@@ -57,4 +57,5 @@ RoleBinding er laget i "job-rolebinding.yaml" <br />
 Ved å kjøre kommandoen "kubectl apply -f <*.yaml>" på alle filene vil Role Based Access Control være satt opp. <br />
 <br />
 
-
+## Ytelse Script
+"stress_test.sh" er bash scriptet som gjennomfører ytelsestestene ved å bruke verktøyene sysbench og fio. Scriptet blir pakket inn i en Dockerfile og et image med navn stresstest:v1 blir generert. Dette Docker imaget blir brukt for å kjøre en Job ut ifra filen "stresstest-job.yaml". Denne Job'en krever at det finnes en PersistenVolume og en PersistentVolumeChain, men disse blir ikke brukt. Yaml filene for disse er "stresstest-pvc.yaml" og "stresstest-pvc.yaml".
