@@ -34,3 +34,11 @@ Grafana ble satt opp med dashboard Node Exporter, ID:1860
 ### Kilder
 [Denne Guiden](https://medium.com/@gayatripawar401/deploy-prometheus-and-grafana-on-kubernetes-using-helm-5aa9d4fbae66) ble fulgt for å sette opp Grafana og Prometheus <br />
 
+## Role Based Access Control
+For å iverksette Role Based Access Control til en Job i Kubernetes vil du trenge en Service Account for å binde RBAC-reglene til Job'en <br />
+Et eksempel på en slik Service Account er laget i "job-SA.yaml" <br />
+En RBAC settes opp ved å lage en Role som inneholder hvilke rettigheter en skal ha tilgjengelig, og en Role Binding som knytter rettighetene til et Namespace (i dette tilfellet). <br />
+Role er laget i "job-role.yaml" <br />
+RoleBinding er laget i "job-rolebinding.yaml" <br />
+
+Ved å kjøre kommandoen "kubectl apply -f <*.yaml>" på alle filene vil Role Based Access Control være satt opp. <br />
