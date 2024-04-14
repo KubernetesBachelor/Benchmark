@@ -6,3 +6,4 @@ PlotScriptCPU.py tar inn 4 .csv filer med navn "parset_cpu_resultater_Konteiner.
 
 ### Hvordan plott Minne og Disk grafene
 DiskScript.py og MinneScript.py tar inn 4 .txt filer produsert fra shell scriptet og bruker disse for å produsere en figur hver med fire søyler.
+Navnene på filene må være følgende: 'VMResultater.txt', 'KubernetesResultater.txt', 'NativeResultater.txt' og 'KonteinerResultater.txt'
