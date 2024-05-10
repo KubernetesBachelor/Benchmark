@@ -1,12 +1,12 @@
 # Sette opp Kubernetes
 ## Intaller Kubectl
-'''
+```
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 kubectl version --client
-'''
+```
 ## Installer Docker
-'''
+```
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl
@@ -24,10 +24,10 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 sudo docker run hello-world
-'''
+```
 ## Installer Minikube
-'''
+```
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
-'''
+```
 
