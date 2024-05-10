@@ -1,5 +1,5 @@
 ### Generelt
-I mappen miljøoppsett finnes dokumentasjon for hvordan Kubernetes-miljøet ble satt opp og hvordan de forskjellige sikkerhetsmekanismene ble implementert.
+I mappen miljøoppsett finnes dokumentasjon for hvordan Kubernetes-miljøet ble satt opp, hvordan de forskjellige sikkerhetsmekanismene ble implementer og hvordan ytelsestestene ble kjørt.
 
 Under en initiell testrunde ble Grafana brukt til å visualisere ressursbruken til Kubernetes-klusteret. Det finnes en guide for å sette dette opp i miljøoppsett-mappen og bildene som ble produsert ligger i GrafanaBilder-mappen, men disse resultatene ble ikke benyttet i bacheloroppgaven.
 
