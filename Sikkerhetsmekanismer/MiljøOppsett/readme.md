@@ -1,4 +1,32 @@
+## Pod Security Admission
+Pod Security Admission blir lagt til ved å sette Pod Security Standarder til et namespace. <br />
+"PSA-namespace.yaml" vil lage et nytt namespace som benytter Pod Security Admission. Dette nye namespacet benyttes til alt som omhandler disse ytelsestestene.
+
+## Auditing
+Auditing må bli configurert til å starte med klusteret. Det holder med å kjøre "minikube stop" for så å starte med rette konfigurasjoner, ved ny oppstart vil Prometheus og Grafana fungere som normalt. <br />
+Ved å kjøre følgende kommandoer vil audity policyen "audit-policy.yaml" bli iverksatt.
+```
+mkdir -p ~/.minikube/files/etc/ssl/certs
+cp audit-policy.yaml ~/.minikube/files/etc/ssl/certs/
+minikube start --extra-config=apiserver.audit-policy-file=/etc/ssl/certs/audit-policy.yaml --extra-config=apiserver.audit-log-path=-
+```
+
+## Role Based Access Control
+For å iverksette Role Based Access Control til en Job i Kubernetes vil du trenge en Service Account for å binde RBAC-reglene til Job'en <br />
+Et eksempel på en slik Service Account er laget i "job-SA.yaml" <br />
+En RBAC settes opp ved å lage en Role som inneholder hvilke rettigheter en skal ha tilgjengelig, og en Role Binding som knytter rettighetene til et Namespace (i dette tilfellet). <br />
+Role er laget i "job-role.yaml" <br />
+RoleBinding er laget i "job-rolebinding.yaml" <br />
+<br />
+Ved å kjøre kommandoen "kubectl apply -f <*.yaml>" på alle filene vil Role Based Access Control være satt opp. <br />
+
+## Ytelse Script
+"stress_test.sh" er bash scriptet som gjennomfører ytelsestestene ved å bruke verktøyene sysbench og fio. Scriptet blir benyttet i "Dockerfile" for å lage et image med navn "stresstest:v1". Dette Docker imaget blir brukt for å kjøre en Job ut ifra filen "stresstest-job.yaml". Denne Job'en krever at det finnes en PersistenVolume og en PersistentVolumeChain, men disse blir ikke brukt. Yaml filene for disse er "stresstest-pvc.yaml" og "stresstest-pvc.yaml". <br />
+<br />
+Etter at scriptet har kjørt ferdig vil resultatene kunne blitt hentet ut ved sjekke loggene til poden som har navn "stresstest-podID".
+
 ## Miljø Oppsett
+Under forklares hvordan Prometheus og Grafana ble satt opp i Kubernetes-klusteret
 ### Forutsetninger <br />
 Minikube <br />
 Kubectl  <br />
@@ -33,37 +61,3 @@ Grafana ble satt opp med dashboard Node Exporter, ID:1860
 
 ### Kilder
 [Denne Guiden](https://medium.com/@gayatripawar401/deploy-prometheus-and-grafana-on-kubernetes-using-helm-5aa9d4fbae66) ble fulgt for å sette opp Grafana og Prometheus <br />
-
-## Pod Security Admission
-Pod Security Admission blir lagt til ved å sette Pod Security Standarder til et namespace. <br />
-"PSA-namespace.yaml" vil lage et nytt namespace som benytter Pod Security Admission. Dette nye namespacet benyttes til alt som omhandler disse ytelsestestene.
-
-## Auditing
-Auditing må bli configurert til å starte med klusteret. Det holder med å kjøre "minikube stop" for så å starte med rette konfigurasjoner, ved ny oppstart vil Prometheus og Grafana fungere som normalt. <br />
-Ved å kjøre følgende kommandoer vil audity policyen "audit-policy.yaml" bli iverksatt.
-```
-mkdir -p ~/.minikube/files/etc/ssl/certs
-cp audit-policy.yaml ~/.minikube/files/etc/ssl/certs/
-minikube start --extra-config=apiserver.audit-policy-file=/etc/ssl/certs/audit-policy.yaml --extra-config=apiserver.audit-log-path=-
-```
-
-## Role Based Access Control
-For å iverksette Role Based Access Control til en Job i Kubernetes vil du trenge en Service Account for å binde RBAC-reglene til Job'en <br />
-Et eksempel på en slik Service Account er laget i "job-SA.yaml" <br />
-En RBAC settes opp ved å lage en Role som inneholder hvilke rettigheter en skal ha tilgjengelig, og en Role Binding som knytter rettighetene til et Namespace (i dette tilfellet). <br />
-Role er laget i "job-role.yaml" <br />
-RoleBinding er laget i "job-rolebinding.yaml" <br />
-<br />
-Ved å kjøre kommandoen "kubectl apply -f <*.yaml>" på alle filene vil Role Based Access Control være satt opp. <br />
-
-## Ytelse Script
-"stress_test.sh" er bash scriptet som gjennomfører ytelsestestene ved å bruke verktøyene sysbench og fio. Scriptet blir benyttet i "Dockerfile" for å lage et image med navn "stresstest:v1". Dette Docker imaget blir brukt for å kjøre en Job ut ifra filen "stresstest-job.yaml". Denne Job'en krever at det finnes en PersistenVolume og en PersistentVolumeChain, men disse blir ikke brukt. Yaml filene for disse er "stresstest-pvc.yaml" og "stresstest-pvc.yaml". <br />
-<br />
-Etter at scriptet har kjørt ferdig vil resultatene kunne blitt hentet ut ved sjekke loggene til poden som har navn "stresstest-podID".
-
-## Formater Resultater
-Resultatene fra ytelsestestene ble lagret som "resultat.txt" og omgjort til en .csv fil ved å bruke scriptet "parse_txt_til_csv.py". <br />
-Deretter ble scriptet "CPUscript.py" brukt for å skape figurene til CPU ytelse. Dette scriptet tar inn 5 filer med navn: "Herdet.csv", "Auditing.csv", "RBAC.csv", "Standard.csv" og "RoleSecurityAdmission.csv" <br />
-<br />
-Scriptet "MinneScript.py" og "DiskScript.py" lager figur til minne- og diskytelse ved å ta inn 5 .txt filer med navn: 'Herdet.txt', 'Auditing.txt', 'RBAC.txt', 'Standard.txt' og 'RoleSecurityAdmission.txt'. <br />
-<br />
