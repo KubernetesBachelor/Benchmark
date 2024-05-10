@@ -3,7 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-def plot_tests(csv_files, file_labels, test_type, identifiers, value_column):
+# Filnavn og etiketter for de fem datasettene
+csv_files = ['Standard.csv', 'PSA.csv', 'RBAC.csv', 'Auditing.csv', 'Herdet.csv']    # Erstatt '*.csv' filene med passende filnavn
+file_labels = ['Standard', 'PSA', 'RBAC', 'Auditing', 'Herdet']                      # Erstatt 'labelen' for å passe med filnavnene
+
+#Funksjon for å tegne søylediagrammene for CPU, minne og disk
+def plot(csv_files, file_labels, test_type, identifiers, value_column):
     output_dir = f'{test_type.lower()}_output_graphs'
     os.makedirs(output_dir, exist_ok=True)
     results = {}
@@ -53,7 +58,6 @@ def plot_tests(csv_files, file_labels, test_type, identifiers, value_column):
         title = f'{test_type} Ytelse - {key_str}'
 
         ax.set_title(title)
-        ax.set_xlabel('Konfigurasjon')
         ax.set_ylabel(ylabel)
 
         text_str = '\n'.join([f'{label}: {mean:.2f}' for mean, _, label in zip(means, stds, labels)])
@@ -63,17 +67,7 @@ def plot_tests(csv_files, file_labels, test_type, identifiers, value_column):
         plt.savefig(f'{output_dir}/{test_type}_{key_str.replace(" ", "_")}.png')
         plt.close()
 
-# Oppdater filstiene og etikettene
-csv_files = [
-    'Standard.csv',
-    'PSA.csv',
-    'RBAC.csv',
-    'Auditing.csv',
-    'Herdet.csv'
-]
-file_labels = ['Standard', 'PSA', 'RBAC', 'Auditing', 'Herdet']
-
-# Eksempel på bruk for CPU, RAM, og Disk tester
-plot_tests(csv_files, file_labels, 'CPU', ['Mode/Threads', 'cpu-max-prime (Only CPU)'], 'Events/IOPS/MiB/sec')
-plot_tests(csv_files, file_labels, 'RAM', 'Mode/Threads', 'Events/IOPS/MiB/sec')
-plot_tests(csv_files, file_labels, 'Disk', 'Mode/Threads', 'Events/IOPS/MiB/sec')
+# Kall til plot funksjonen for CPU, RAM og Disk
+plot(csv_files, file_labels, 'CPU', ['Mode/Threads', 'cpu-max-prime (Only CPU)'], 'Events/IOPS/MiB/sec')
+plot(csv_files, file_labels, 'RAM', 'Mode/Threads', 'Events/IOPS/MiB/sec')
+plot(csv_files, file_labels, 'Disk', 'Mode/Threads', 'Events/IOPS/MiB/sec')
