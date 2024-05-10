@@ -1,9 +1,9 @@
-# Verstmaskin oppsett
+## Verstmaskin oppsett
 
-# Virtuell maskin oppsett
+## Virtuell maskin oppsett
 
-# Konteiner oppsett
-## Installer Docker
+## Konteiner oppsett
+### Installer Docker
 ```
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -23,22 +23,22 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 sudo docker run hello-world
 ```
-## Bygge image
+### Bygge image
 ```
 sudo docker build -t <Navn_til_konteiner> .
 ```
-## Kjøre konteiner
+### Kjøre konteiner
 ```
 sudo docker run -v /home/ubuntu/docker_2/docker_assignment:/app konteiner
 ```
-# Kubernetes oppsett
-## Intaller Kubectl
+## Kubernetes oppsett
+### Intaller Kubectl
 ```
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 kubectl version --client
 ```
-## Installer Docker
+### Installer Docker
 ```
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -58,12 +58,12 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 sudo docker run hello-world
 ```
-## Installer Minikube
+### Installer Minikube
 ```
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 ```
-## Bygge image
+### Bygge image
 ```
 eval $(minikube docker-env)
 docker build -t stresstest:v1 .
