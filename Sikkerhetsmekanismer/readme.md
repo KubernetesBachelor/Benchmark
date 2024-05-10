@@ -1,6 +1,7 @@
-### Miljøoppsett
+### Generelt
 I mappen miljøoppsett finnes dokumentasjon for hvordan Kubernetes-miljøet ble satt opp og hvordan de forskjellige sikkerhetsmekanismene ble implementert.
-Under en initiell testrunde ble grafana brukt til å visualisere ressursbruken til klusteret. Det finnes også en guide for å sette dette opp og bildene som ble produsert, men disse resultatene ble ikke benyttet i bacheloroppgaven.
+
+Under en initiell testrunde ble Grafana brukt til å visualisere ressursbruken til klusteret. Det finnes også en guide for å sette dette opp i miljøoppsett-mappen og bildene som ble produsert ligger i GrafanaBilder-mappen, men disse resultatene ble ikke benyttet i bacheloroppgaven.
 
 ### Hvordan parse resultater fra .txt til .csv
 Scriptet "parse.py" tar inn 1 .txt fil og skriver den om til .csv format.
