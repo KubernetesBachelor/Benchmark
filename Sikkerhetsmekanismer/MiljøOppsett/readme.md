@@ -34,7 +34,7 @@ RoleBinding er laget i "job-rolebinding.yaml" <br />
 <br />
 Ved å kjøre kommandoen "kubectl apply -f <*.yaml>" på alle filene vil Role Based Access Control være satt opp. <br />
 
-## Miljø Oppsett
+## Sette opp Grafana
 Under forklares hvordan Prometheus og Grafana ble satt opp i Kubernetes-klusteret
 ### Forutsetninger <br />
 Minikube <br />
