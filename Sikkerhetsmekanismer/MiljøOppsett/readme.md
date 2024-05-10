@@ -17,6 +17,10 @@ Alle komponentene i Kubernetes-klusteret blir plassert i et namespace med navn "
 ### Pod Security Admission
 Pod Security Admission blir lagt til ved å sette Pod Security Standarder til et namespace. <br />
 "PSA-namespace.yaml" vil lage et nytt namespace med navn "stresstest" som benytter Pod Security Admission. Dette nye namespacet benyttes til alt som omhandler disse ytelsestestene.
+Kommandoer for å implementere Pod Security Admission
+```
+kubectl apply -f PSA-namespace.yaml
+```
 
 ### Auditing
 Auditing må bli configurert til å starte med klusteret. Det holder med å kjøre "minikube stop" for så å starte med rette konfigurasjoner, ved ny oppstart vil Prometheus og Grafana fungere som normalt. <br />
@@ -34,7 +38,12 @@ En RBAC settes opp ved å lage en Role som inneholder hvilke rettigheter en skal
 Role er laget i "job-role.yaml" <br />
 RoleBinding er laget i "job-rolebinding.yaml" <br />
 <br />
-Ved å kjøre kommandoen "kubectl apply -f <*.yaml>" på alle filene vil Role Based Access Control være satt opp. <br />
+Kommandoer for å iverksette RBAC
+```
+kubectl apply -f job-SA.yaml
+kubectl apply -f job-role.yaml
+kubectl apply -f job-rolebinding.yaml
+```
 
 ## Sette opp Grafana
 Under forklares hvordan Prometheus og Grafana ble satt opp i Kubernetes-klusteret
