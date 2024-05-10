@@ -12,9 +12,11 @@ Kommando for å lese logger
 kubectl log <pod-ID> -n stresstest
 ```
 ## Implementering av sikkerhetsfunskjoner
+Alle komponentene i Kubernetes-klusteret blir plassert i et namespace med navn "stresstest". I denne dokumentasjonen finnes det to forskjellige .yaml filer som lager et namespace med samme navn, "stresstest". .yaml filen med navn "namespace.yaml" lager et default namespace og blir implementert hvis man ikke skal benytte Pod Security Admission. Hvis man skal benytte Pod Security Admission og "namespace.yaml" har blitt deployert må man slette dette namespace før Pod Security Admission kan bli implementert.
+
 ### Pod Security Admission
 Pod Security Admission blir lagt til ved å sette Pod Security Standarder til et namespace. <br />
-"PSA-namespace.yaml" vil lage et nytt namespace som benytter Pod Security Admission. Dette nye namespacet benyttes til alt som omhandler disse ytelsestestene.
+"PSA-namespace.yaml" vil lage et nytt namespace med navn "stresstest" som benytter Pod Security Admission. Dette nye namespacet benyttes til alt som omhandler disse ytelsestestene.
 
 ### Auditing
 Auditing må bli configurert til å starte med klusteret. Det holder med å kjøre "minikube stop" for så å starte med rette konfigurasjoner, ved ny oppstart vil Prometheus og Grafana fungere som normalt. <br />
