@@ -1,3 +1,9 @@
+# Kjøre på vertsmaskin
+
+# Sette opp Virtualbox
+
+# Sette opp Docker
+
 # Sette opp Kubernetes
 ## Intaller Kubectl
 ```
