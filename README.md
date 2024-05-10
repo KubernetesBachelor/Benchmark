@@ -1,3 +1,11 @@
+### Baseline
+Denne mappen inneholder guider for hvordan miljøene til Vertsmaskin, VM, Konteiner og Kubernetes ble satt opp og hvordan ytelsestestene ble kjørt
+
+### Sikkerhetesmekanismer
+Denne mappen inneholder guider for hvordan de ulike sikkerhetesmekanismene ble implementert i Kubernetes klusteret, sammen med alle konfigurasjonsfilene. I tillegg ligger scriptene for å kunne lage grafer og tabeller fra resultatene. Grafana ble brukt for å overvåke ressuresene i klusteret underveis og oppsett og bilder fra dette ligger også i denne mappen.
+
+
+
 # Hvordan sette opp og kjøre scriptet
 Først lager du Dockerfile
 
