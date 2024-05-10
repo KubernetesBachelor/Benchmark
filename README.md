@@ -1,8 +1,14 @@
 ### Baseline
-Denne mappen inneholder guider for hvordan miljøene til Vertsmaskin, VM, Konteiner og Kubernetes ble satt opp og hvordan ytelsestestene ble kjørt
+Denne mappen inneholder dokumentasjon for hvordan ytelsestestene for vertsmaskin, konteiner, VM og Kubernetes ble gjennomført.
+Vedlagt ligger dokumentasjon og intsallasjonsguide for hvordan de ulike miljøene ble satt opp.
+I tillegg ligger ytelsestesten og guide til hvordan testene ble kjørt.
 
 ### Sikkerhetesmekanismer
-Denne mappen inneholder guider for hvordan de ulike sikkerhetesmekanismene ble implementert i Kubernetes klusteret, sammen med alle konfigurasjonsfilene. I tillegg ligger scriptene for å kunne lage grafer og tabeller fra resultatene. Grafana ble brukt for å overvåke ressuresene i klusteret underveis og oppsett og bilder fra dette ligger også i denne mappen.
+Denne mappen inneholder dokumentasjon for hvordan Kubernetes sin ytelse ble målt ved implementering av ulike sikkerhetsmekanismer.
+Vedlagt ligger konfigurasjonsfiler for de ulike sikkerhetsmekanismene og hvordan de ble implementert.
+Sammen med dette ligger hvordan scriptet ble kjørt for å teste ytelsen.
+
+Grafana ble brukt for å overvåke ressuresene i klusteret underveis og oppsett og bilder fra dette ligger også i denne mappen.
 
 
 
