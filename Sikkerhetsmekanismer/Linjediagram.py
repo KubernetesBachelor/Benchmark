@@ -2,10 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Filnavn og etiketter for de fem datasettene
-files = ['Standard.csv', 'RBAC.csv', 'PSA.csv', 'Auditing.csv', 'Herdet.csv']  # Erstatt 'YourFifthFile.csv' med faktisk filnavn
-labels = ['Standard', 'RBAC', 'Pod Security Admission', 'Auditing', 'Herdet']  # Erstatt 'Fifth Environment' med faktisk navn
+files = ['Standard.csv', 'RBAC.csv', 'PSA.csv', 'Auditing.csv', 'Herdet.csv']  # Erstatt '*.csv' filene med passende filnavn
+labels = ['Standard', 'RBAC', 'Pod Security Admission', 'Auditing', 'Herdet']  # Erstatt 'labelen' for å passe med filnavnene
 
-# Plot funksjon for å tegne separate grafer for hver kombinasjon av tråder og cpu-max-prime for CPU
+# Funksjon for å tegne separate grafer for hver kombinasjon av tråder og cpu-max-prime for CPU
 def plot_cpu_data():
     all_data = [pd.read_csv(file) for file in files]
     unique_combinations = set()
@@ -30,7 +30,7 @@ def plot_cpu_data():
         plt.savefig(f'CPU_Threads_{threads}_CPU_Max_Prime_{cpu_max_prime}_Performance.png')
         plt.show()
 
-# Plot funksjon for å tegne grafer for RAM og Disk med gjennomsnitt
+# Funksjon for å tegne grafer for RAM og Disk
 def plot_ram_disk_data(test_type, y_label, save_filename_prefix):
     all_data = [pd.read_csv(file) for file in files]
     modes = {'RAM': ['Lese', 'Skrive'], 'Disk': ['read', 'write']}
