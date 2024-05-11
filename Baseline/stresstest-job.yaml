@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: stresstest-job
+  namespace: stresstest
+spec:
+  template:
+    metadata:
+      labels:
+        app: stress-test
+    spec:
+      containers:
+      - name: stress-test
+        image: stresstest:v1
+      restartPolicy: Never
+  backoffLimit: 4
