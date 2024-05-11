@@ -1,6 +1,12 @@
 ## Verstmaskin oppsett
 
 ## Virtuell maskin oppsett
+- RAM: 4GB
+- 1x prosessor, 4 kjerner
+- hard disk (SCSI): 64GB
+- OS: Windows 11 home
+- I/O controller: LSI Logic SAS
+- Disk type: SATA
 
 ## Konteiner oppsett
 ### Installer Docker
