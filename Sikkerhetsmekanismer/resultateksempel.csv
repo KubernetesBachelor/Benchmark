@@ -1,0 +1,101 @@
+Test Type,Mode/Threads,Test Number,Events/IOPS/MiB/sec,cpu-max-prime (Only CPU)
+CPU,1 threads,1,35241,10000
+CPU,1 threads,2,35639,10000
+CPU,1 threads,3,33857,10000
+CPU,1 threads,4,33557,10000
+CPU,1 threads,5,31007,10000
+CPU,1 threads,6,32141,10000
+CPU,1 threads,7,32827,10000
+CPU,1 threads,8,32945,10000
+CPU,1 threads,9,33282,10000
+CPU,1 threads,10,31176,10000
+CPU,1 threads,1,12642,20000
+CPU,1 threads,2,11659,20000
+CPU,1 threads,3,13013,20000
+CPU,1 threads,4,12670,20000
+CPU,1 threads,5,12813,20000
+CPU,1 threads,6,12049,20000
+CPU,1 threads,7,12964,20000
+CPU,1 threads,8,11852,20000
+CPU,1 threads,9,12645,20000
+CPU,1 threads,10,12497,20000
+CPU,1 threads,1,6863,30000
+CPU,1 threads,2,7576,30000
+CPU,1 threads,3,7461,30000
+CPU,1 threads,4,7160,30000
+CPU,1 threads,5,7535,30000
+CPU,1 threads,6,7061,30000
+CPU,1 threads,7,7810,30000
+CPU,1 threads,8,7146,30000
+CPU,1 threads,9,6818,30000
+CPU,1 threads,10,7082,30000
+CPU,2 threads,1,62350,10000
+CPU,2 threads,2,55739,10000
+CPU,2 threads,3,56092,10000
+CPU,2 threads,4,55765,10000
+CPU,2 threads,5,56133,10000
+CPU,2 threads,6,58606,10000
+CPU,2 threads,7,56925,10000
+CPU,2 threads,8,56467,10000
+CPU,2 threads,9,57303,10000
+CPU,2 threads,10,56645,10000
+CPU,2 threads,1,22118,20000
+CPU,2 threads,2,21730,20000
+CPU,2 threads,3,22112,20000
+CPU,2 threads,4,21822,20000
+CPU,2 threads,5,23182,20000
+CPU,2 threads,6,24108,20000
+CPU,2 threads,7,24134,20000
+CPU,2 threads,8,24159,20000
+CPU,2 threads,9,24128,20000
+CPU,2 threads,10,24244,20000
+CPU,2 threads,1,13812,30000
+CPU,2 threads,2,13296,30000
+CPU,2 threads,3,12946,30000
+CPU,2 threads,4,13807,30000
+CPU,2 threads,5,13823,30000
+CPU,2 threads,6,13853,30000
+CPU,2 threads,7,13761,30000
+CPU,2 threads,8,13904,30000
+CPU,2 threads,9,13863,30000
+CPU,2 threads,10,13863,30000
+RAM,Lese,1,11437.26,
+RAM,Lese,2,11397.08,
+RAM,Lese,3,10780.34,
+RAM,Lese,4,11045.20,
+RAM,Lese,5,11297.40,
+RAM,Lese,6,10835.23,
+RAM,Lese,7,10832.43,
+RAM,Lese,8,11111.77,
+RAM,Lese,9,11442.21,
+RAM,Lese,10,11067.57,
+RAM,Skrive,1,10995.20,
+RAM,Skrive,2,10827.93,
+RAM,Skrive,3,9325.88,
+RAM,Skrive,4,11023.93,
+RAM,Skrive,5,11471.56,
+RAM,Skrive,6,10831.52,
+RAM,Skrive,7,10734.20,
+RAM,Skrive,8,10258.38,
+RAM,Skrive,9,12162.55,
+RAM,Skrive,10,12241.52,
+Disk,write,1,296,
+Disk,write,2,304,
+Disk,write,3,266,
+Disk,write,4,305,
+Disk,write,5,304,
+Disk,write,6,266,
+Disk,write,7,267,
+Disk,write,8,265,
+Disk,write,9,300,
+Disk,write,10,265,
+Disk,read,1,422,
+Disk,read,2,444,
+Disk,read,3,439,
+Disk,read,4,447,
+Disk,read,5,447,
+Disk,read,6,444,
+Disk,read,7,440,
+Disk,read,8,436,
+Disk,read,9,443,
+Disk,read,10,438,
