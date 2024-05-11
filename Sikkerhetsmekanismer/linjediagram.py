@@ -53,7 +53,7 @@ def plot_ram_disk_data(test_type, y_label, save_filename_prefix):
             print(f"No data available to plot for {test_type} {mode.capitalize()}")
         plt.show()
 
-# Kall funksjonene for plotting
+# Kaller funksjonene for plotting
 plot_cpu_data()
 plot_ram_disk_data('RAM', 'MiB/sec', 'RAM')
 plot_ram_disk_data('Disk', 'IOPS', 'Disk')
