@@ -3,6 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
+# Filnavn og etiketter for de fire datasettene
+csv_files = ['VM.csv', 'Konteiner.csv', 'Kubernetes.csv', 'Vertsmaskin.csv']     # Erstatt '*.csv' filene med passende filnavn
+file_labels = ['VM', 'Konteiner', 'Kubernetes', 'Vertsmaskin']                   # Erstatt 'labelen' for å passe med filnavnene
+
+#Funksjon for å tegne søylediagrammene for CPU, minne og disk
 def plot_tests(csv_files, file_labels, test_type, identifiers, value_column):
     output_dir = f'{test_type.lower()}_output_graphs'
     os.makedirs(output_dir, exist_ok=True)
@@ -73,10 +78,7 @@ def plot_tests(csv_files, file_labels, test_type, identifiers, value_column):
         plt.savefig(f'{output_dir}/{test_type}_{key_str.replace(" ", "_")}.png')
         plt.close()
 
-# Eksempel på bruk
-csv_files = ['VM.csv', 'Konteiner.csv', 'Kubernetes.csv', 'Vertsmaskin.csv']
-file_labels = ['VM', 'Konteiner', 'Kubernetes', 'Vertsmaskin']
-
+# Kall til plot funksjonen for CPU, RAM og Disk
 plot_tests(csv_files, file_labels, 'CPU', ['Mode/Threads', 'cpu-max-prime (Only CPU)'], 'Events/IOPS/MiB/sec')
 plot_tests(csv_files, file_labels, 'RAM', 'Mode/Threads', 'Events/IOPS/MiB/sec')
 plot_tests(csv_files, file_labels, 'Disk', 'Mode/Threads', 'Events/IOPS/MiB/sec')
