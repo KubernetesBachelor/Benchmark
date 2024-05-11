@@ -7,6 +7,9 @@ RUN apt-get update && \
 #For å definere hvor konteineren skal starte
 WORKDIR /app/
 
+#Lager mappen som resultatet blir lagret i senere
+RUN mkdir -p /app/data
+
 #Legge inn skriptet i konteineren
 ADD stress_test.sh /app/stress_test.sh
 
