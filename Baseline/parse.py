@@ -1,6 +1,7 @@
 import re
 import csv
 
+# Funksjon for å parse .txt fil til .csv
 def parse_and_export_to_csv(input_file, output_file):
     # Forberedelse av regex-mønstre for å identifisere de ulike testtypene
     cpu_pattern = re.compile(r"Test (\d+): Starter CPU-test med (\d+) tråd\(er\) og cpu-max-prime=(\d+) for \d+ sekunder.*?"
@@ -10,7 +11,7 @@ def parse_and_export_to_csv(input_file, output_file):
 
     data = {"CPU": [], "RAM": [], "Disk": []}
 
-    # Les filen og ekstraher data basert på mønstre
+    # Leser av filen og ekstraher data basert på regex-mønstre
     with open(input_file, 'r', encoding='utf-8') as file:
         content = file.read()
 
@@ -29,7 +30,7 @@ def parse_and_export_to_csv(input_file, output_file):
             mode, test_number, _, iops = match.groups()
             data["Disk"].append((mode, test_number, iops))
 
-    # Lagre data til CSV
+    # Lagrer data til CSV
     with open(output_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow(["Test Type", "Mode/Threads", "Test Number", "Events/IOPS/MiB/sec", "cpu-max-prime (Only CPU)"])
@@ -41,4 +42,4 @@ def parse_and_export_to_csv(input_file, output_file):
             writer.writerow(["Disk", disk[0], disk[1], disk[2], ""])
 
 if __name__ == "__main__":
-    parse_and_export_to_csv('Herdet.txt', 'Herdet.csv')
+    parse_and_export_to_csv('Herdet.txt', 'Herdet.csv')     # Erstatt '*.txt' med passende filnavn og '*.csv' med navnet .csv filen skal ha
