@@ -2,10 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Filnavn og etiketter for de fire datasettene
-files = ['VM.csv', 'Konteiner.csv', 'Kubernetes.csv', 'Vertsmaskin.csv']
-labels = ['VM', 'Konteiner', 'Kubernetes', 'Vertsmaskin']
+files = ['VM.csv', 'Konteiner.csv', 'Kubernetes.csv', 'Vertsmaskin.csv']    # Erstatt '*.csv' filene med passende filnavn
+labels = ['VM', 'Konteiner', 'Kubernetes', 'Vertsmaskin']                   # Erstatt 'labelen' for å passe med filnavnene
 
-# Plot funksjon for å tegne separate grafer for hver kombinasjon av tråder og cpu-max-prime for CPU
+# Funksjon for å tegne separate grafer for hver kombinasjon av tråder og cpu-max-prime for CPU
 def plot_cpu_data():
     all_data = [pd.read_csv(file) for file in files]
     unique_combinations = set()
@@ -29,7 +29,7 @@ def plot_cpu_data():
         plt.grid(True)
         plt.savefig(f'CPU_Threads_{threads}_CPU_Max_Prime_{cpu_max_prime}_Performance.png')
 
-# Plot funksjon for å tegne grafer for RAM og Disk med gjennomsnitt
+# Funksjon for å tegne grafer for RAM og Disk
 def plot_ram_disk_data(test_type, y_label, save_filename_prefix):
     all_data = [pd.read_csv(file) for file in files]
     modes = {'RAM': ['Lese', 'Skrive'], 'Disk': ['read', 'write']}
@@ -51,7 +51,7 @@ def plot_ram_disk_data(test_type, y_label, save_filename_prefix):
         else:
             print(f"No data available to plot for {test_type} {mode.capitalize()}")
 
-# Kall funksjonene for plotting
+# Kaller funksjonene for plotting
 plot_cpu_data()
 plot_ram_disk_data('RAM', 'MiB/sec', 'RAM')
 plot_ram_disk_data('Disk', 'IOPS', 'Disk')
