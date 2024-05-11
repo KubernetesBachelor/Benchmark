@@ -1,8 +1,10 @@
 #!/bin/bash
 
+resultatfil="resultater.txt" # Definerer navnet på resultatfilen
 echo "Starter stresstesting av konteineren ..."
 
-#Test av CPU - tråder og primtall varierer og hver test utføres 10 ganger
+# Sørger for at resultatfilen er tom før vi starter
+echo "" > "$resultatfil"
 
 # Definerer array for antall tråder og cpu-max-prime verdier
 threads=(1 2)
@@ -25,37 +27,56 @@ for t in "${threads[@]}"; do
   done
 done
 
+
 # Minnetest 1 - Lese
-echo "Starter minnetest i lesemodus ..."
-output=$(sysbench memory --memory-block-size=128M --memory-total-size=1G --memory-oper=read --threads=1 run)
-filtered_output=$(echo "$output" | grep -oP "\d+(\.\d+)? MiB transferred \(\d+(\.\d+)? MiB/sec\)" | uniq)
-echo "Lese: $filtered_output"
-echo "Minnetest i lesemodus fullført."
-echo "--------------------------------------------------"
+for i in {1..10}; do
+  echo "Starter minnetest i lesemodus, Test $i..."
+  echo "Starter minnetest i lesemodus, Test $i..." >> "$resultatfil"
+  output=$(sysbench memory --memory-block-size=128M --memory-total-size=1G --memory-oper=read --threads=1 run)
+  filtered_output=$(echo "$output" | grep -oP "\d+(\.\d+)? MiB transferred \(\d+(\.\d+)? MiB/sec\)" | uniq)
+  echo "Lese: $filtered_output"
+  echo "Lese: $filtered_output" >> "$resultatfil"
+  echo "Minnetest i lesemodus, Test $i fullført."
+  echo "Minnetest i lesemodus, Test $i fullført." >> "$resultatfil"
+  echo "--------------------------------------------------"
+  echo "--------------------------------------------------" >> "$resultatfil"
+done
 
 # Minnetest 2 - Skrive
-echo "Starter minnetest i skrivemodus ..."
-output=$(sysbench memory --memory-block-size=128M --memory-total-size=1G --memory-oper=write --threads=1 run)
-filtered_output=$(echo "$output" | grep -oP "\d+(\.\d+)? MiB transferred \(\d+(\.\d+)? MiB/sec\)" | uniq)
-echo "Skrive: $filtered_output"
-echo "Minnetest i skrivemodus fullført."
-echo "--------------------------------------------------"
-
-echo "Testene er fullført."
+for i in {1..10}; do
+  echo "Starter minnetest i skrivemodus, Test $i..."
+  echo "Starter minnetest i skrivemodus, Test $i..." >> "$resultatfil"
+  output=$(sysbench memory --memory-block-size=128M --memory-total-size=1G --memory-oper=write --threads=1 run)
+  filtered_output=$(echo "$output" | grep -oP "\d+(\.\d+)? MiB transferred \(\d+(\.\d+)? MiB/sec\)" | uniq)
+  echo "Skrive: $filtered_output"
+  echo "Skrive: $filtered_output" >> "$resultatfil"
+  echo "Minnetest i skrivemodus, Test $i fullført."
+  echo "Minnetest i skrivemodus, Test $i fullført." >> "$resultatfil"
+  echo "--------------------------------------------------"
+  echo "--------------------------------------------------" >> "$resultatfil"
+done
 
 # Disk I/O test
 kjor_fio_test () {
   modus="$1" # write eller read
-  echo "Starter $modus test ..."
-  output=$(fio --name=seq_"$modus"_test --ioengine=sync --rw="$modus" --bs=1M --direct=1 --iodepth=2 --size=2G --numjobs=1 --runtime=60 --filename=/home/tropisk/Bachelor/vm/testfile --group_reporting)
-  iops=$(echo "$output" | grep "IOPS=" | grep -oP "(?<=IOPS=)\d+")
-  echo "Sekvensiell $modus: IOPS = $iops"
-  echo "Fio $modus test fullført."
-  echo "--------------------------------------------------"
+  for i in {1..10}; do
+    echo "Starter $modus test, Test $i..."
+    echo "Starter $modus test, Test $i..." >> "$resultatfil"
+    output=$(fio --name=seq_"$modus"_test --ioengine=sync --rw="$modus" --bs=1M --direct=1 --iodepth=1 --size=2G --numjobs=1 --runtime=60 --filename=/home/tropisk/Bachelor/vm/testfile --group_reporting)
+    echo "$output" >> "fio_full_output_$modus.txt"
+    iops=$(echo "$output" | grep "IOPS=" | grep -oP "(?<=IOPS=)\d+")
+    echo "Sekvensiell $modus: IOPS = $iops"
+    echo "Sekvensiell $modus: IOPS = $iops" >> "$resultatfil"
+    echo "Fio $modus test, Test $i fullført."
+    echo "Fio $modus test, Test $i fullført." >> "$resultatfil"
+    echo "--------------------------------------------------"
+    echo "--------------------------------------------------" >> "$resultatfil"
+  done
 }
 
 # Kjører fio-tester for sekvensiell skriving og lesing
 kjor_fio_test write
 kjor_fio_test read
 
+echo "Testene er fullført og resultatene er lagret i $resultatfil."
 echo "Alle tester fullført."
