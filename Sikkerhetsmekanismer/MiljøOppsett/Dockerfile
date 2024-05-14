@@ -1,5 +1,5 @@
 from ubuntu:latest
-#Oppdaterer etter siste pakker fra Ubuntu og laster ned sysbench
+#Oppdaterer etter siste pakker fra Ubuntu og laster ned sysbench & fio
 RUN apt-get update && \
          apt-get install -y sysbench && \
          apt-get install -y fio
