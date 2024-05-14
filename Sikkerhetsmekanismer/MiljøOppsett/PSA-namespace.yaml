@@ -3,9 +3,9 @@ kind: Namespace
 metadata:
   name: stresstest
   labels:
-    # Enforcing the baseline Pod Security Standard
+    # Tvinger på baseline Pod Security Standard
     pod-security.kubernetes.io/enforce: baseline
-    # Auditing for the restricted Pod Security Standard
+    # Auditing (logging) restricted Pod Security Standard
     pod-security.kubernetes.io/audit: restricted
-    # Warning for the restricted Pod Security Standard
+    # Varsler om "restricted Pod Security Standard"
     pod-security.kubernetes.io/warn: restricted
