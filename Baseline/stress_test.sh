@@ -2,7 +2,7 @@
 
 echo "Starter stresstesting av konteineren ..."
 
-#Test av CPU - tråder og primtall varierer og hver test utføres 10 ganger
+#Test av CPU - tråder og primtall verdier varierer og hver test utføres 10 ganger
 
 # Definerer array for antall tråder og cpu-max-prime verdier
 threads=(1 2)
