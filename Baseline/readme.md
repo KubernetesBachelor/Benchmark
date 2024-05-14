@@ -21,7 +21,12 @@ Scriptene "linjediagram.py" og "søylediagram.py" tar inn 4 csv filer, en for hv
 For å benytte egne filer må scriptet redigeres slik at filnavnene, som er plassert øverst i scriptet, passer med .csv filene og etikkenene blir passende.
 
 
-## Verstmaskin oppsett
+## Vertsmaskin oppsett
+- RAM: 8GB
+- CPU: Intel(R) Core(TM)i7-8550U CPU@ 1.80GHz
+- Lagring: SSD: LITEON CV1-DB256, 256GB
+- serie nr: SD0J21064L1TH59105X5
+- OS: Ubuntu 22.04.4
 
 ## Virtuell maskin oppsett
 - RAM: 4GB
