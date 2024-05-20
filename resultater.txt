@@ -1,0 +1,2601 @@
+
+Test 1: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0009s
+    total number of events:              38235
+Tråder: 1, Test 1 fullført
+--------------------------------------------------
+Test 2: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              38957
+Tråder: 1, Test 2 fullført
+--------------------------------------------------
+Test 3: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              37059
+Tråder: 1, Test 3 fullført
+--------------------------------------------------
+Test 4: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              39060
+Tråder: 1, Test 4 fullført
+--------------------------------------------------
+Test 5: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0010s
+    total number of events:              38301
+Tråder: 1, Test 5 fullført
+--------------------------------------------------
+Test 6: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              37939
+Tråder: 1, Test 6 fullført
+--------------------------------------------------
+Test 7: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              39420
+Tråder: 1, Test 7 fullført
+--------------------------------------------------
+Test 8: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              37458
+Tråder: 1, Test 8 fullført
+--------------------------------------------------
+Test 9: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              33150
+Tråder: 1, Test 9 fullført
+--------------------------------------------------
+Test 10: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              35140
+Tråder: 1, Test 10 fullført
+--------------------------------------------------
+Test 11: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0001s
+    total number of events:              39474
+Tråder: 1, Test 11 fullført
+--------------------------------------------------
+Test 12: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              37031
+Tråder: 1, Test 12 fullført
+--------------------------------------------------
+Test 13: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              37492
+Tråder: 1, Test 13 fullført
+--------------------------------------------------
+Test 14: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              33142
+Tråder: 1, Test 14 fullført
+--------------------------------------------------
+Test 15: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              33119
+Tråder: 1, Test 15 fullført
+--------------------------------------------------
+Test 16: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              35275
+Tråder: 1, Test 16 fullført
+--------------------------------------------------
+Test 17: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              33191
+Tråder: 1, Test 17 fullført
+--------------------------------------------------
+Test 18: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0001s
+    total number of events:              32989
+Tråder: 1, Test 18 fullført
+--------------------------------------------------
+Test 19: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0012s
+    total number of events:              34222
+Tråder: 1, Test 19 fullført
+--------------------------------------------------
+Test 20: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              36134
+Tråder: 1, Test 20 fullført
+--------------------------------------------------
+Test 21: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              35013
+Tråder: 1, Test 21 fullført
+--------------------------------------------------
+Test 22: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              37125
+Tråder: 1, Test 22 fullført
+--------------------------------------------------
+Test 23: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              32910
+Tråder: 1, Test 23 fullført
+--------------------------------------------------
+Test 24: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              34987
+Tråder: 1, Test 24 fullført
+--------------------------------------------------
+Test 25: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0009s
+    total number of events:              33139
+Tråder: 1, Test 25 fullført
+--------------------------------------------------
+Test 26: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0001s
+    total number of events:              33850
+Tråder: 1, Test 26 fullført
+--------------------------------------------------
+Test 27: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              38926
+Tråder: 1, Test 27 fullført
+--------------------------------------------------
+Test 28: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              39681
+Tråder: 1, Test 28 fullført
+--------------------------------------------------
+Test 29: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              33149
+Tråder: 1, Test 29 fullført
+--------------------------------------------------
+Test 30: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              39760
+Tråder: 1, Test 30 fullført
+--------------------------------------------------
+Test 31: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              39717
+Tråder: 1, Test 31 fullført
+--------------------------------------------------
+Test 32: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              34974
+Tråder: 1, Test 32 fullført
+--------------------------------------------------
+Test 33: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              37763
+Tråder: 1, Test 33 fullført
+--------------------------------------------------
+Test 34: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0001s
+    total number of events:              35322
+Tråder: 1, Test 34 fullført
+--------------------------------------------------
+Test 35: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              39583
+Tråder: 1, Test 35 fullført
+--------------------------------------------------
+Test 36: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              33192
+Tråder: 1, Test 36 fullført
+--------------------------------------------------
+Test 37: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              37122
+Tråder: 1, Test 37 fullført
+--------------------------------------------------
+Test 38: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              33014
+Tråder: 1, Test 38 fullført
+--------------------------------------------------
+Test 39: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              39309
+Tråder: 1, Test 39 fullført
+--------------------------------------------------
+Test 40: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              39646
+Tråder: 1, Test 40 fullført
+--------------------------------------------------
+Test 41: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              39350
+Tråder: 1, Test 41 fullført
+--------------------------------------------------
+Test 42: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              37121
+Tråder: 1, Test 42 fullført
+--------------------------------------------------
+Test 43: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              32927
+Tråder: 1, Test 43 fullført
+--------------------------------------------------
+Test 44: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0015s
+    total number of events:              34713
+Tråder: 1, Test 44 fullført
+--------------------------------------------------
+Test 45: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              37519
+Tråder: 1, Test 45 fullført
+--------------------------------------------------
+Test 46: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              39647
+Tråder: 1, Test 46 fullført
+--------------------------------------------------
+Test 47: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              33215
+Tråder: 1, Test 47 fullført
+--------------------------------------------------
+Test 48: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0009s
+    total number of events:              34950
+Tråder: 1, Test 48 fullført
+--------------------------------------------------
+Test 49: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              39583
+Tråder: 1, Test 49 fullført
+--------------------------------------------------
+Test 50: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              32904
+Tråder: 1, Test 50 fullført
+--------------------------------------------------
+Test 51: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              37200
+Tråder: 1, Test 51 fullført
+--------------------------------------------------
+Test 52: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              35153
+Tråder: 1, Test 52 fullført
+--------------------------------------------------
+Test 53: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              35354
+Tråder: 1, Test 53 fullført
+--------------------------------------------------
+Test 54: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              35300
+Tråder: 1, Test 54 fullført
+--------------------------------------------------
+Test 55: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              35315
+Tråder: 1, Test 55 fullført
+--------------------------------------------------
+Test 56: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0012s
+    total number of events:              33067
+Tråder: 1, Test 56 fullført
+--------------------------------------------------
+Test 57: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              34866
+Tråder: 1, Test 57 fullført
+--------------------------------------------------
+Test 58: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              34938
+Tråder: 1, Test 58 fullført
+--------------------------------------------------
+Test 59: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0015s
+    total number of events:              33971
+Tråder: 1, Test 59 fullført
+--------------------------------------------------
+Test 60: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              34648
+Tråder: 1, Test 60 fullført
+--------------------------------------------------
+Test 61: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              33693
+Tråder: 1, Test 61 fullført
+--------------------------------------------------
+Test 62: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              38963
+Tråder: 1, Test 62 fullført
+--------------------------------------------------
+Test 63: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              39494
+Tråder: 1, Test 63 fullført
+--------------------------------------------------
+Test 64: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              39582
+Tråder: 1, Test 64 fullført
+--------------------------------------------------
+Test 65: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              39328
+Tråder: 1, Test 65 fullført
+--------------------------------------------------
+Test 66: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              39277
+Tråder: 1, Test 66 fullført
+--------------------------------------------------
+Test 67: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              39631
+Tråder: 1, Test 67 fullført
+--------------------------------------------------
+Test 68: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              39680
+Tråder: 1, Test 68 fullført
+--------------------------------------------------
+Test 69: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              39684
+Tråder: 1, Test 69 fullført
+--------------------------------------------------
+Test 70: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              39700
+Tråder: 1, Test 70 fullført
+--------------------------------------------------
+Test 71: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              33193
+Tråder: 1, Test 71 fullført
+--------------------------------------------------
+Test 72: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              37373
+Tråder: 1, Test 72 fullført
+--------------------------------------------------
+Test 73: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              33147
+Tråder: 1, Test 73 fullført
+--------------------------------------------------
+Test 74: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              35320
+Tråder: 1, Test 74 fullført
+--------------------------------------------------
+Test 75: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0011s
+    total number of events:              32986
+Tråder: 1, Test 75 fullført
+--------------------------------------------------
+Test 76: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              35183
+Tråder: 1, Test 76 fullført
+--------------------------------------------------
+Test 77: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              33032
+Tråder: 1, Test 77 fullført
+--------------------------------------------------
+Test 78: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              34910
+Tråder: 1, Test 78 fullført
+--------------------------------------------------
+Test 79: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              35634
+Tråder: 1, Test 79 fullført
+--------------------------------------------------
+Test 80: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0009s
+    total number of events:              33195
+Tråder: 1, Test 80 fullført
+--------------------------------------------------
+Test 81: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              32957
+Tråder: 1, Test 81 fullført
+--------------------------------------------------
+Test 82: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              37236
+Tråder: 1, Test 82 fullført
+--------------------------------------------------
+Test 83: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              35186
+Tråder: 1, Test 83 fullført
+--------------------------------------------------
+Test 84: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0014s
+    total number of events:              35036
+Tråder: 1, Test 84 fullført
+--------------------------------------------------
+Test 85: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0001s
+    total number of events:              37146
+Tråder: 1, Test 85 fullført
+--------------------------------------------------
+Test 86: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              37099
+Tråder: 1, Test 86 fullført
+--------------------------------------------------
+Test 87: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0009s
+    total number of events:              34363
+Tråder: 1, Test 87 fullført
+--------------------------------------------------
+Test 88: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0015s
+    total number of events:              34883
+Tråder: 1, Test 88 fullført
+--------------------------------------------------
+Test 89: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              34458
+Tråder: 1, Test 89 fullført
+--------------------------------------------------
+Test 90: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              35174
+Tråder: 1, Test 90 fullført
+--------------------------------------------------
+Test 91: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              33615
+Tråder: 1, Test 91 fullført
+--------------------------------------------------
+Test 92: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              36959
+Tråder: 1, Test 92 fullført
+--------------------------------------------------
+Test 93: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              33204
+Tråder: 1, Test 93 fullført
+--------------------------------------------------
+Test 94: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0012s
+    total number of events:              34921
+Tråder: 1, Test 94 fullført
+--------------------------------------------------
+Test 95: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              33229
+Tråder: 1, Test 95 fullført
+--------------------------------------------------
+Test 96: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              37136
+Tråder: 1, Test 96 fullført
+--------------------------------------------------
+Test 97: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              35294
+Tråder: 1, Test 97 fullført
+--------------------------------------------------
+Test 98: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0015s
+    total number of events:              35012
+Tråder: 1, Test 98 fullført
+--------------------------------------------------
+Test 99: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              37618
+Tråder: 1, Test 99 fullført
+--------------------------------------------------
+Test 100: Starter CPU-test med 1 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              39710
+Tråder: 1, Test 100 fullført
+--------------------------------------------------
+Test 1: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              63378
+Tråder: 2, Test 1 fullført
+--------------------------------------------------
+Test 2: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              63320
+Tråder: 2, Test 2 fullført
+--------------------------------------------------
+Test 3: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0010s
+    total number of events:              61739
+Tråder: 2, Test 3 fullført
+--------------------------------------------------
+Test 4: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              71215
+Tråder: 2, Test 4 fullført
+--------------------------------------------------
+Test 5: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              65880
+Tråder: 2, Test 5 fullført
+--------------------------------------------------
+Test 6: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0009s
+    total number of events:              60102
+Tråder: 2, Test 6 fullført
+--------------------------------------------------
+Test 7: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              63050
+Tråder: 2, Test 7 fullført
+--------------------------------------------------
+Test 8: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              63328
+Tråder: 2, Test 8 fullført
+--------------------------------------------------
+Test 9: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              72986
+Tråder: 2, Test 9 fullført
+--------------------------------------------------
+Test 10: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              65408
+Tråder: 2, Test 10 fullført
+--------------------------------------------------
+Test 11: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              63324
+Tråder: 2, Test 11 fullført
+--------------------------------------------------
+Test 12: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              63315
+Tråder: 2, Test 12 fullført
+--------------------------------------------------
+Test 13: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              70532
+Tråder: 2, Test 13 fullført
+--------------------------------------------------
+Test 14: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              68654
+Tråder: 2, Test 14 fullført
+--------------------------------------------------
+Test 15: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              62357
+Tråder: 2, Test 15 fullført
+--------------------------------------------------
+Test 16: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              60463
+Tråder: 2, Test 16 fullført
+--------------------------------------------------
+Test 17: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0012s
+    total number of events:              68679
+Tråder: 2, Test 17 fullført
+--------------------------------------------------
+Test 18: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              61088
+Tråder: 2, Test 18 fullført
+--------------------------------------------------
+Test 19: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              63360
+Tråder: 2, Test 19 fullført
+--------------------------------------------------
+Test 20: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              72998
+Tråder: 2, Test 20 fullført
+--------------------------------------------------
+Test 21: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              62819
+Tråder: 2, Test 21 fullført
+--------------------------------------------------
+Test 22: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              59566
+Tråder: 2, Test 22 fullført
+--------------------------------------------------
+Test 23: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              63370
+Tråder: 2, Test 23 fullført
+--------------------------------------------------
+Test 24: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0010s
+    total number of events:              62186
+Tråder: 2, Test 24 fullført
+--------------------------------------------------
+Test 25: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              60657
+Tråder: 2, Test 25 fullført
+--------------------------------------------------
+Test 26: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              63318
+Tråder: 2, Test 26 fullført
+--------------------------------------------------
+Test 27: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              73204
+Tråder: 2, Test 27 fullført
+--------------------------------------------------
+Test 28: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              62622
+Tråder: 2, Test 28 fullført
+--------------------------------------------------
+Test 29: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0013s
+    total number of events:              64425
+Tråder: 2, Test 29 fullført
+--------------------------------------------------
+Test 30: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0010s
+    total number of events:              66919
+Tråder: 2, Test 30 fullført
+--------------------------------------------------
+Test 31: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              61466
+Tråder: 2, Test 31 fullført
+--------------------------------------------------
+Test 32: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              63404
+Tråder: 2, Test 32 fullført
+--------------------------------------------------
+Test 33: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              63249
+Tråder: 2, Test 33 fullført
+--------------------------------------------------
+Test 34: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              63424
+Tråder: 2, Test 34 fullført
+--------------------------------------------------
+Test 35: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0016s
+    total number of events:              61558
+Tråder: 2, Test 35 fullført
+--------------------------------------------------
+Test 36: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0015s
+    total number of events:              63043
+Tråder: 2, Test 36 fullført
+--------------------------------------------------
+Test 37: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              62130
+Tråder: 2, Test 37 fullført
+--------------------------------------------------
+Test 38: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0009s
+    total number of events:              67490
+Tråder: 2, Test 38 fullført
+--------------------------------------------------
+Test 39: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              59870
+Tråder: 2, Test 39 fullført
+--------------------------------------------------
+Test 40: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              61274
+Tråder: 2, Test 40 fullført
+--------------------------------------------------
+Test 41: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0015s
+    total number of events:              62190
+Tråder: 2, Test 41 fullført
+--------------------------------------------------
+Test 42: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              63354
+Tråder: 2, Test 42 fullført
+--------------------------------------------------
+Test 43: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              59592
+Tråder: 2, Test 43 fullført
+--------------------------------------------------
+Test 44: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              63558
+Tråder: 2, Test 44 fullført
+--------------------------------------------------
+Test 45: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0009s
+    total number of events:              73580
+Tråder: 2, Test 45 fullført
+--------------------------------------------------
+Test 46: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              62650
+Tråder: 2, Test 46 fullført
+--------------------------------------------------
+Test 47: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              59641
+Tråder: 2, Test 47 fullført
+--------------------------------------------------
+Test 48: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0012s
+    total number of events:              66717
+Tråder: 2, Test 48 fullført
+--------------------------------------------------
+Test 49: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              60376
+Tråder: 2, Test 49 fullført
+--------------------------------------------------
+Test 50: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              63513
+Tråder: 2, Test 50 fullført
+--------------------------------------------------
+Test 51: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              73599
+Tråder: 2, Test 51 fullført
+--------------------------------------------------
+Test 52: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              63501
+Tråder: 2, Test 52 fullført
+--------------------------------------------------
+Test 53: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              59517
+Tråder: 2, Test 53 fullført
+--------------------------------------------------
+Test 54: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0013s
+    total number of events:              62691
+Tråder: 2, Test 54 fullført
+--------------------------------------------------
+Test 55: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              60165
+Tråder: 2, Test 55 fullført
+--------------------------------------------------
+Test 56: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              63356
+Tråder: 2, Test 56 fullført
+--------------------------------------------------
+Test 57: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              59571
+Tråder: 2, Test 57 fullført
+--------------------------------------------------
+Test 58: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              62043
+Tråder: 2, Test 58 fullført
+--------------------------------------------------
+Test 59: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              64896
+Tråder: 2, Test 59 fullført
+--------------------------------------------------
+Test 60: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              66245
+Tråder: 2, Test 60 fullført
+--------------------------------------------------
+Test 61: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              62949
+Tråder: 2, Test 61 fullført
+--------------------------------------------------
+Test 62: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              63701
+Tråder: 2, Test 62 fullført
+--------------------------------------------------
+Test 63: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              59485
+Tråder: 2, Test 63 fullført
+--------------------------------------------------
+Test 64: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              63630
+Tråder: 2, Test 64 fullført
+--------------------------------------------------
+Test 65: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              63559
+Tråder: 2, Test 65 fullført
+--------------------------------------------------
+Test 66: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0015s
+    total number of events:              61151
+Tråder: 2, Test 66 fullført
+--------------------------------------------------
+Test 67: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              62038
+Tråder: 2, Test 67 fullført
+--------------------------------------------------
+Test 68: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              63390
+Tråder: 2, Test 68 fullført
+--------------------------------------------------
+Test 69: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0016s
+    total number of events:              61727
+Tråder: 2, Test 69 fullført
+--------------------------------------------------
+Test 70: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              63232
+Tråder: 2, Test 70 fullført
+--------------------------------------------------
+Test 71: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              63286
+Tråder: 2, Test 71 fullført
+--------------------------------------------------
+Test 72: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0017s
+    total number of events:              62402
+Tråder: 2, Test 72 fullført
+--------------------------------------------------
+Test 73: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0014s
+    total number of events:              60293
+Tråder: 2, Test 73 fullført
+--------------------------------------------------
+Test 74: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              60134
+Tråder: 2, Test 74 fullført
+--------------------------------------------------
+Test 75: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0016s
+    total number of events:              63154
+Tråder: 2, Test 75 fullført
+--------------------------------------------------
+Test 76: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0015s
+    total number of events:              60617
+Tråder: 2, Test 76 fullført
+--------------------------------------------------
+Test 77: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              62570
+Tråder: 2, Test 77 fullført
+--------------------------------------------------
+Test 78: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              63517
+Tråder: 2, Test 78 fullført
+--------------------------------------------------
+Test 79: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0012s
+    total number of events:              59820
+Tråder: 2, Test 79 fullført
+--------------------------------------------------
+Test 80: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              73141
+Tråder: 2, Test 80 fullført
+--------------------------------------------------
+Test 81: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              62869
+Tråder: 2, Test 81 fullført
+--------------------------------------------------
+Test 82: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0013s
+    total number of events:              61266
+Tråder: 2, Test 82 fullført
+--------------------------------------------------
+Test 83: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              61951
+Tråder: 2, Test 83 fullført
+--------------------------------------------------
+Test 84: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              63576
+Tråder: 2, Test 84 fullført
+--------------------------------------------------
+Test 85: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0014s
+    total number of events:              62488
+Tråder: 2, Test 85 fullført
+--------------------------------------------------
+Test 86: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0005s
+    total number of events:              60620
+Tråder: 2, Test 86 fullført
+--------------------------------------------------
+Test 87: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              63439
+Tråder: 2, Test 87 fullført
+--------------------------------------------------
+Test 88: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              63684
+Tråder: 2, Test 88 fullført
+--------------------------------------------------
+Test 89: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0017s
+    total number of events:              62133
+Tråder: 2, Test 89 fullført
+--------------------------------------------------
+Test 90: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              60718
+Tråder: 2, Test 90 fullført
+--------------------------------------------------
+Test 91: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              63580
+Tråder: 2, Test 91 fullført
+--------------------------------------------------
+Test 92: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0010s
+    total number of events:              62269
+Tråder: 2, Test 92 fullført
+--------------------------------------------------
+Test 93: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              60725
+Tråder: 2, Test 93 fullført
+--------------------------------------------------
+Test 94: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              63507
+Tråder: 2, Test 94 fullført
+--------------------------------------------------
+Test 95: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0014s
+    total number of events:              63313
+Tråder: 2, Test 95 fullført
+--------------------------------------------------
+Test 96: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0013s
+    total number of events:              60417
+Tråder: 2, Test 96 fullført
+--------------------------------------------------
+Test 97: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              62518
+Tråder: 2, Test 97 fullført
+--------------------------------------------------
+Test 98: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              63422
+Tråder: 2, Test 98 fullført
+--------------------------------------------------
+Test 99: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0013s
+    total number of events:              61997
+Tråder: 2, Test 99 fullført
+--------------------------------------------------
+Test 100: Starter CPU-test med 2 tråd(er) for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              61530
+Tråder: 2, Test 100 fullført
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 1...
+Lese: 1024.00 MiB transferred (8334.58 MiB/sec)
+Minnetest i lesemodus, Test 1 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 2...
+Lese: 1024.00 MiB transferred (8201.04 MiB/sec)
+Minnetest i lesemodus, Test 2 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 3...
+Lese: 1024.00 MiB transferred (12990.41 MiB/sec)
+Minnetest i lesemodus, Test 3 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 4...
+Lese: 1024.00 MiB transferred (12550.74 MiB/sec)
+Minnetest i lesemodus, Test 4 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 5...
+Lese: 1024.00 MiB transferred (12018.42 MiB/sec)
+Minnetest i lesemodus, Test 5 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 6...
+Lese: 1024.00 MiB transferred (12604.71 MiB/sec)
+Minnetest i lesemodus, Test 6 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 7...
+Lese: 1024.00 MiB transferred (12195.94 MiB/sec)
+Minnetest i lesemodus, Test 7 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 8...
+Lese: 1024.00 MiB transferred (11899.11 MiB/sec)
+Minnetest i lesemodus, Test 8 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 9...
+Lese: 1024.00 MiB transferred (11718.50 MiB/sec)
+Minnetest i lesemodus, Test 9 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 10...
+Lese: 1024.00 MiB transferred (12297.19 MiB/sec)
+Minnetest i lesemodus, Test 10 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 11...
+Lese: 1024.00 MiB transferred (12845.42 MiB/sec)
+Minnetest i lesemodus, Test 11 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 12...
+Lese: 1024.00 MiB transferred (12606.37 MiB/sec)
+Minnetest i lesemodus, Test 12 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 13...
+Lese: 1024.00 MiB transferred (12049.61 MiB/sec)
+Minnetest i lesemodus, Test 13 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 14...
+Lese: 1024.00 MiB transferred (11932.39 MiB/sec)
+Minnetest i lesemodus, Test 14 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 15...
+Lese: 1024.00 MiB transferred (11981.51 MiB/sec)
+Minnetest i lesemodus, Test 15 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 16...
+Lese: 1024.00 MiB transferred (11437.93 MiB/sec)
+Minnetest i lesemodus, Test 16 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 17...
+Lese: 1024.00 MiB transferred (12427.32 MiB/sec)
+Minnetest i lesemodus, Test 17 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 18...
+Lese: 1024.00 MiB transferred (12442.90 MiB/sec)
+Minnetest i lesemodus, Test 18 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 19...
+Lese: 1024.00 MiB transferred (11511.78 MiB/sec)
+Minnetest i lesemodus, Test 19 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 20...
+Lese: 1024.00 MiB transferred (11867.04 MiB/sec)
+Minnetest i lesemodus, Test 20 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 21...
+Lese: 1024.00 MiB transferred (12481.65 MiB/sec)
+Minnetest i lesemodus, Test 21 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 22...
+Lese: 1024.00 MiB transferred (12076.00 MiB/sec)
+Minnetest i lesemodus, Test 22 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 23...
+Lese: 1024.00 MiB transferred (11766.63 MiB/sec)
+Minnetest i lesemodus, Test 23 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 24...
+Lese: 1024.00 MiB transferred (11966.54 MiB/sec)
+Minnetest i lesemodus, Test 24 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 25...
+Lese: 1024.00 MiB transferred (12240.41 MiB/sec)
+Minnetest i lesemodus, Test 25 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 26...
+Lese: 1024.00 MiB transferred (12367.12 MiB/sec)
+Minnetest i lesemodus, Test 26 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 27...
+Lese: 1024.00 MiB transferred (11843.68 MiB/sec)
+Minnetest i lesemodus, Test 27 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 28...
+Lese: 1024.00 MiB transferred (12266.83 MiB/sec)
+Minnetest i lesemodus, Test 28 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 29...
+Lese: 1024.00 MiB transferred (12241.58 MiB/sec)
+Minnetest i lesemodus, Test 29 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 30...
+Lese: 1024.00 MiB transferred (11862.77 MiB/sec)
+Minnetest i lesemodus, Test 30 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 31...
+Lese: 1024.00 MiB transferred (10661.64 MiB/sec)
+Minnetest i lesemodus, Test 31 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 32...
+Lese: 1024.00 MiB transferred (12173.34 MiB/sec)
+Minnetest i lesemodus, Test 32 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 33...
+Lese: 1024.00 MiB transferred (12008.34 MiB/sec)
+Minnetest i lesemodus, Test 33 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 34...
+Lese: 1024.00 MiB transferred (11782.98 MiB/sec)
+Minnetest i lesemodus, Test 34 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 35...
+Lese: 1024.00 MiB transferred (11729.34 MiB/sec)
+Minnetest i lesemodus, Test 35 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 36...
+Lese: 1024.00 MiB transferred (12023.89 MiB/sec)
+Minnetest i lesemodus, Test 36 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 37...
+Lese: 1024.00 MiB transferred (11408.02 MiB/sec)
+Minnetest i lesemodus, Test 37 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 38...
+Lese: 1024.00 MiB transferred (12562.42 MiB/sec)
+Minnetest i lesemodus, Test 38 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 39...
+Lese: 1024.00 MiB transferred (11359.01 MiB/sec)
+Minnetest i lesemodus, Test 39 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 40...
+Lese: 1024.00 MiB transferred (12448.35 MiB/sec)
+Minnetest i lesemodus, Test 40 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 41...
+Lese: 1024.00 MiB transferred (12224.72 MiB/sec)
+Minnetest i lesemodus, Test 41 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 42...
+Lese: 1024.00 MiB transferred (12047.44 MiB/sec)
+Minnetest i lesemodus, Test 42 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 43...
+Lese: 1024.00 MiB transferred (12344.81 MiB/sec)
+Minnetest i lesemodus, Test 43 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 44...
+Lese: 1024.00 MiB transferred (12001.77 MiB/sec)
+Minnetest i lesemodus, Test 44 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 45...
+Lese: 1024.00 MiB transferred (12293.78 MiB/sec)
+Minnetest i lesemodus, Test 45 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 46...
+Lese: 1024.00 MiB transferred (12685.18 MiB/sec)
+Minnetest i lesemodus, Test 46 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 47...
+Lese: 1024.00 MiB transferred (11784.25 MiB/sec)
+Minnetest i lesemodus, Test 47 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 48...
+Lese: 1024.00 MiB transferred (11927.22 MiB/sec)
+Minnetest i lesemodus, Test 48 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 49...
+Lese: 1024.00 MiB transferred (11539.15 MiB/sec)
+Minnetest i lesemodus, Test 49 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 50...
+Lese: 1024.00 MiB transferred (12092.87 MiB/sec)
+Minnetest i lesemodus, Test 50 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 51...
+Lese: 1024.00 MiB transferred (12255.50 MiB/sec)
+Minnetest i lesemodus, Test 51 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 52...
+Lese: 1024.00 MiB transferred (11877.97 MiB/sec)
+Minnetest i lesemodus, Test 52 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 53...
+Lese: 1024.00 MiB transferred (12669.23 MiB/sec)
+Minnetest i lesemodus, Test 53 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 54...
+Lese: 1024.00 MiB transferred (12298.83 MiB/sec)
+Minnetest i lesemodus, Test 54 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 55...
+Lese: 1024.00 MiB transferred (12237.44 MiB/sec)
+Minnetest i lesemodus, Test 55 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 56...
+Lese: 1024.00 MiB transferred (12117.43 MiB/sec)
+Minnetest i lesemodus, Test 56 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 57...
+Lese: 1024.00 MiB transferred (11800.84 MiB/sec)
+Minnetest i lesemodus, Test 57 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 58...
+Lese: 1024.00 MiB transferred (11993.63 MiB/sec)
+Minnetest i lesemodus, Test 58 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 59...
+Lese: 1024.00 MiB transferred (12298.26 MiB/sec)
+Minnetest i lesemodus, Test 59 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 60...
+Lese: 1024.00 MiB transferred (11988.03 MiB/sec)
+Minnetest i lesemodus, Test 60 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 61...
+Lese: 1024.00 MiB transferred (11911.30 MiB/sec)
+Minnetest i lesemodus, Test 61 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 62...
+Lese: 1024.00 MiB transferred (12062.52 MiB/sec)
+Minnetest i lesemodus, Test 62 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 63...
+Lese: 1024.00 MiB transferred (12540.26 MiB/sec)
+Minnetest i lesemodus, Test 63 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 64...
+Lese: 1024.00 MiB transferred (11455.55 MiB/sec)
+Minnetest i lesemodus, Test 64 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 65...
+Lese: 1024.00 MiB transferred (12499.80 MiB/sec)
+Minnetest i lesemodus, Test 65 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 66...
+Lese: 1024.00 MiB transferred (11754.39 MiB/sec)
+Minnetest i lesemodus, Test 66 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 67...
+Lese: 1024.00 MiB transferred (11837.59 MiB/sec)
+Minnetest i lesemodus, Test 67 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 68...
+Lese: 1024.00 MiB transferred (12110.43 MiB/sec)
+Minnetest i lesemodus, Test 68 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 69...
+Lese: 1024.00 MiB transferred (11983.49 MiB/sec)
+Minnetest i lesemodus, Test 69 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 70...
+Lese: 1024.00 MiB transferred (12364.97 MiB/sec)
+Minnetest i lesemodus, Test 70 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 71...
+Lese: 1024.00 MiB transferred (12368.81 MiB/sec)
+Minnetest i lesemodus, Test 71 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 72...
+Lese: 1024.00 MiB transferred (12180.61 MiB/sec)
+Minnetest i lesemodus, Test 72 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 73...
+Lese: 1024.00 MiB transferred (11422.25 MiB/sec)
+Minnetest i lesemodus, Test 73 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 74...
+Lese: 1024.00 MiB transferred (12110.55 MiB/sec)
+Minnetest i lesemodus, Test 74 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 75...
+Lese: 1024.00 MiB transferred (12024.45 MiB/sec)
+Minnetest i lesemodus, Test 75 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 76...
+Lese: 1024.00 MiB transferred (12392.12 MiB/sec)
+Minnetest i lesemodus, Test 76 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 77...
+Lese: 1024.00 MiB transferred (12712.87 MiB/sec)
+Minnetest i lesemodus, Test 77 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 78...
+Lese: 1024.00 MiB transferred (12389.02 MiB/sec)
+Minnetest i lesemodus, Test 78 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 79...
+Lese: 1024.00 MiB transferred (11627.79 MiB/sec)
+Minnetest i lesemodus, Test 79 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 80...
+Lese: 1024.00 MiB transferred (11776.18 MiB/sec)
+Minnetest i lesemodus, Test 80 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 81...
+Lese: 1024.00 MiB transferred (11333.33 MiB/sec)
+Minnetest i lesemodus, Test 81 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 82...
+Lese: 1024.00 MiB transferred (11689.50 MiB/sec)
+Minnetest i lesemodus, Test 82 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 83...
+Lese: 1024.00 MiB transferred (11944.09 MiB/sec)
+Minnetest i lesemodus, Test 83 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 84...
+Lese: 1024.00 MiB transferred (11604.18 MiB/sec)
+Minnetest i lesemodus, Test 84 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 85...
+Lese: 1024.00 MiB transferred (11761.47 MiB/sec)
+Minnetest i lesemodus, Test 85 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 86...
+Lese: 1024.00 MiB transferred (12071.99 MiB/sec)
+Minnetest i lesemodus, Test 86 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 87...
+Lese: 1024.00 MiB transferred (12112.89 MiB/sec)
+Minnetest i lesemodus, Test 87 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 88...
+Lese: 1024.00 MiB transferred (11865.96 MiB/sec)
+Minnetest i lesemodus, Test 88 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 89...
+Lese: 1024.00 MiB transferred (10532.02 MiB/sec)
+Minnetest i lesemodus, Test 89 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 90...
+Lese: 1024.00 MiB transferred (12300.79 MiB/sec)
+Minnetest i lesemodus, Test 90 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 91...
+Lese: 1024.00 MiB transferred (12267.09 MiB/sec)
+Minnetest i lesemodus, Test 91 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 92...
+Lese: 1024.00 MiB transferred (11962.59 MiB/sec)
+Minnetest i lesemodus, Test 92 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 93...
+Lese: 1024.00 MiB transferred (11699.69 MiB/sec)
+Minnetest i lesemodus, Test 93 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 94...
+Lese: 1024.00 MiB transferred (11721.36 MiB/sec)
+Minnetest i lesemodus, Test 94 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 95...
+Lese: 1024.00 MiB transferred (12211.39 MiB/sec)
+Minnetest i lesemodus, Test 95 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 96...
+Lese: 1024.00 MiB transferred (11752.40 MiB/sec)
+Minnetest i lesemodus, Test 96 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 97...
+Lese: 1024.00 MiB transferred (11829.10 MiB/sec)
+Minnetest i lesemodus, Test 97 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 98...
+Lese: 1024.00 MiB transferred (12246.29 MiB/sec)
+Minnetest i lesemodus, Test 98 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 99...
+Lese: 1024.00 MiB transferred (11951.12 MiB/sec)
+Minnetest i lesemodus, Test 99 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 100...
+Lese: 1024.00 MiB transferred (12217.33 MiB/sec)
+Minnetest i lesemodus, Test 100 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 1...
+Skrive: 1024.00 MiB transferred (11714.61 MiB/sec)
+Minnetest i skrivemodus, Test 1 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 2...
+Skrive: 1024.00 MiB transferred (12012.71 MiB/sec)
+Minnetest i skrivemodus, Test 2 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 3...
+Skrive: 1024.00 MiB transferred (11743.11 MiB/sec)
+Minnetest i skrivemodus, Test 3 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 4...
+Skrive: 1024.00 MiB transferred (12038.83 MiB/sec)
+Minnetest i skrivemodus, Test 4 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 5...
+Skrive: 1024.00 MiB transferred (12019.14 MiB/sec)
+Minnetest i skrivemodus, Test 5 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 6...
+Skrive: 1024.00 MiB transferred (12013.70 MiB/sec)
+Minnetest i skrivemodus, Test 6 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 7...
+Skrive: 1024.00 MiB transferred (11746.06 MiB/sec)
+Minnetest i skrivemodus, Test 7 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 8...
+Skrive: 1024.00 MiB transferred (11765.01 MiB/sec)
+Minnetest i skrivemodus, Test 8 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 9...
+Skrive: 1024.00 MiB transferred (11809.44 MiB/sec)
+Minnetest i skrivemodus, Test 9 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 10...
+Skrive: 1024.00 MiB transferred (11968.67 MiB/sec)
+Minnetest i skrivemodus, Test 10 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 11...
+Skrive: 1024.00 MiB transferred (11755.15 MiB/sec)
+Minnetest i skrivemodus, Test 11 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 12...
+Skrive: 1024.00 MiB transferred (12087.10 MiB/sec)
+Minnetest i skrivemodus, Test 12 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 13...
+Skrive: 1024.00 MiB transferred (11860.38 MiB/sec)
+Minnetest i skrivemodus, Test 13 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 14...
+Skrive: 1024.00 MiB transferred (12003.27 MiB/sec)
+Minnetest i skrivemodus, Test 14 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 15...
+Skrive: 1024.00 MiB transferred (12034.86 MiB/sec)
+Minnetest i skrivemodus, Test 15 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 16...
+Skrive: 1024.00 MiB transferred (11715.59 MiB/sec)
+Minnetest i skrivemodus, Test 16 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 17...
+Skrive: 1024.00 MiB transferred (12043.48 MiB/sec)
+Minnetest i skrivemodus, Test 17 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 18...
+Skrive: 1024.00 MiB transferred (11910.80 MiB/sec)
+Minnetest i skrivemodus, Test 18 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 19...
+Skrive: 1024.00 MiB transferred (11959.35 MiB/sec)
+Minnetest i skrivemodus, Test 19 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 20...
+Skrive: 1024.00 MiB transferred (11600.22 MiB/sec)
+Minnetest i skrivemodus, Test 20 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 21...
+Skrive: 1024.00 MiB transferred (11999.35 MiB/sec)
+Minnetest i skrivemodus, Test 21 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 22...
+Skrive: 1024.00 MiB transferred (11663.49 MiB/sec)
+Minnetest i skrivemodus, Test 22 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 23...
+Skrive: 1024.00 MiB transferred (11862.72 MiB/sec)
+Minnetest i skrivemodus, Test 23 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 24...
+Skrive: 1024.00 MiB transferred (11933.36 MiB/sec)
+Minnetest i skrivemodus, Test 24 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 25...
+Skrive: 1024.00 MiB transferred (11847.73 MiB/sec)
+Minnetest i skrivemodus, Test 25 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 26...
+Skrive: 1024.00 MiB transferred (11933.16 MiB/sec)
+Minnetest i skrivemodus, Test 26 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 27...
+Skrive: 1024.00 MiB transferred (11943.80 MiB/sec)
+Minnetest i skrivemodus, Test 27 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 28...
+Skrive: 1024.00 MiB transferred (11878.52 MiB/sec)
+Minnetest i skrivemodus, Test 28 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 29...
+Skrive: 1024.00 MiB transferred (10494.16 MiB/sec)
+Minnetest i skrivemodus, Test 29 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 30...
+Skrive: 1024.00 MiB transferred (12004.71 MiB/sec)
+Minnetest i skrivemodus, Test 30 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 31...
+Skrive: 1024.00 MiB transferred (11852.69 MiB/sec)
+Minnetest i skrivemodus, Test 31 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 32...
+Skrive: 1024.00 MiB transferred (11923.46 MiB/sec)
+Minnetest i skrivemodus, Test 32 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 33...
+Skrive: 1024.00 MiB transferred (12008.27 MiB/sec)
+Minnetest i skrivemodus, Test 33 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 34...
+Skrive: 1024.00 MiB transferred (12100.92 MiB/sec)
+Minnetest i skrivemodus, Test 34 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 35...
+Skrive: 1024.00 MiB transferred (11851.03 MiB/sec)
+Minnetest i skrivemodus, Test 35 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 36...
+Skrive: 1024.00 MiB transferred (11789.86 MiB/sec)
+Minnetest i skrivemodus, Test 36 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 37...
+Skrive: 1024.00 MiB transferred (12028.38 MiB/sec)
+Minnetest i skrivemodus, Test 37 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 38...
+Skrive: 1024.00 MiB transferred (11683.45 MiB/sec)
+Minnetest i skrivemodus, Test 38 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 39...
+Skrive: 1024.00 MiB transferred (11771.61 MiB/sec)
+Minnetest i skrivemodus, Test 39 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 40...
+Skrive: 1024.00 MiB transferred (11587.18 MiB/sec)
+Minnetest i skrivemodus, Test 40 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 41...
+Skrive: 1024.00 MiB transferred (11874.08 MiB/sec)
+Minnetest i skrivemodus, Test 41 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 42...
+Skrive: 1024.00 MiB transferred (11890.76 MiB/sec)
+Minnetest i skrivemodus, Test 42 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 43...
+Skrive: 1024.00 MiB transferred (11872.04 MiB/sec)
+Minnetest i skrivemodus, Test 43 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 44...
+Skrive: 1024.00 MiB transferred (11815.66 MiB/sec)
+Minnetest i skrivemodus, Test 44 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 45...
+Skrive: 1024.00 MiB transferred (11725.52 MiB/sec)
+Minnetest i skrivemodus, Test 45 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 46...
+Skrive: 1024.00 MiB transferred (11760.17 MiB/sec)
+Minnetest i skrivemodus, Test 46 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 47...
+Skrive: 1024.00 MiB transferred (11993.20 MiB/sec)
+Minnetest i skrivemodus, Test 47 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 48...
+Skrive: 1024.00 MiB transferred (11667.26 MiB/sec)
+Minnetest i skrivemodus, Test 48 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 49...
+Skrive: 1024.00 MiB transferred (11806.50 MiB/sec)
+Minnetest i skrivemodus, Test 49 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 50...
+Skrive: 1024.00 MiB transferred (9439.36 MiB/sec)
+Minnetest i skrivemodus, Test 50 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 51...
+Skrive: 1024.00 MiB transferred (11839.27 MiB/sec)
+Minnetest i skrivemodus, Test 51 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 52...
+Skrive: 1024.00 MiB transferred (11903.22 MiB/sec)
+Minnetest i skrivemodus, Test 52 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 53...
+Skrive: 1024.00 MiB transferred (11841.13 MiB/sec)
+Minnetest i skrivemodus, Test 53 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 54...
+Skrive: 1024.00 MiB transferred (11483.37 MiB/sec)
+Minnetest i skrivemodus, Test 54 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 55...
+Skrive: 1024.00 MiB transferred (11986.51 MiB/sec)
+Minnetest i skrivemodus, Test 55 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 56...
+Skrive: 1024.00 MiB transferred (11787.70 MiB/sec)
+Minnetest i skrivemodus, Test 56 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 57...
+Skrive: 1024.00 MiB transferred (11780.08 MiB/sec)
+Minnetest i skrivemodus, Test 57 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 58...
+Skrive: 1024.00 MiB transferred (11667.14 MiB/sec)
+Minnetest i skrivemodus, Test 58 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 59...
+Skrive: 1024.00 MiB transferred (11523.63 MiB/sec)
+Minnetest i skrivemodus, Test 59 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 60...
+Skrive: 1024.00 MiB transferred (11700.21 MiB/sec)
+Minnetest i skrivemodus, Test 60 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 61...
+Skrive: 1024.00 MiB transferred (11897.00 MiB/sec)
+Minnetest i skrivemodus, Test 61 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 62...
+Skrive: 1024.00 MiB transferred (11638.87 MiB/sec)
+Minnetest i skrivemodus, Test 62 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 63...
+Skrive: 1024.00 MiB transferred (11752.87 MiB/sec)
+Minnetest i skrivemodus, Test 63 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 64...
+Skrive: 1024.00 MiB transferred (11812.20 MiB/sec)
+Minnetest i skrivemodus, Test 64 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 65...
+Skrive: 1024.00 MiB transferred (11612.85 MiB/sec)
+Minnetest i skrivemodus, Test 65 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 66...
+Skrive: 1024.00 MiB transferred (11942.81 MiB/sec)
+Minnetest i skrivemodus, Test 66 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 67...
+Skrive: 1024.00 MiB transferred (11834.34 MiB/sec)
+Minnetest i skrivemodus, Test 67 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 68...
+Skrive: 1024.00 MiB transferred (11848.41 MiB/sec)
+Minnetest i skrivemodus, Test 68 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 69...
+Skrive: 1024.00 MiB transferred (11875.22 MiB/sec)
+Minnetest i skrivemodus, Test 69 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 70...
+Skrive: 1024.00 MiB transferred (11975.06 MiB/sec)
+Minnetest i skrivemodus, Test 70 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 71...
+Skrive: 1024.00 MiB transferred (11842.52 MiB/sec)
+Minnetest i skrivemodus, Test 71 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 72...
+Skrive: 1024.00 MiB transferred (11861.18 MiB/sec)
+Minnetest i skrivemodus, Test 72 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 73...
+Skrive: 1024.00 MiB transferred (11825.68 MiB/sec)
+Minnetest i skrivemodus, Test 73 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 74...
+Skrive: 1024.00 MiB transferred (11855.76 MiB/sec)
+Minnetest i skrivemodus, Test 74 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 75...
+Skrive: 1024.00 MiB transferred (11951.67 MiB/sec)
+Minnetest i skrivemodus, Test 75 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 76...
+Skrive: 1024.00 MiB transferred (12077.85 MiB/sec)
+Minnetest i skrivemodus, Test 76 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 77...
+Skrive: 1024.00 MiB transferred (11857.75 MiB/sec)
+Minnetest i skrivemodus, Test 77 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 78...
+Skrive: 1024.00 MiB transferred (11914.62 MiB/sec)
+Minnetest i skrivemodus, Test 78 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 79...
+Skrive: 1024.00 MiB transferred (11792.02 MiB/sec)
+Minnetest i skrivemodus, Test 79 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 80...
+Skrive: 1024.00 MiB transferred (11887.75 MiB/sec)
+Minnetest i skrivemodus, Test 80 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 81...
+Skrive: 1024.00 MiB transferred (11878.64 MiB/sec)
+Minnetest i skrivemodus, Test 81 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 82...
+Skrive: 1024.00 MiB transferred (11924.51 MiB/sec)
+Minnetest i skrivemodus, Test 82 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 83...
+Skrive: 1024.00 MiB transferred (11936.52 MiB/sec)
+Minnetest i skrivemodus, Test 83 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 84...
+Skrive: 1024.00 MiB transferred (11919.72 MiB/sec)
+Minnetest i skrivemodus, Test 84 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 85...
+Skrive: 1024.00 MiB transferred (11750.13 MiB/sec)
+Minnetest i skrivemodus, Test 85 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 86...
+Skrive: 1024.00 MiB transferred (11710.75 MiB/sec)
+Minnetest i skrivemodus, Test 86 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 87...
+Skrive: 1024.00 MiB transferred (11745.80 MiB/sec)
+Minnetest i skrivemodus, Test 87 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 88...
+Skrive: 1024.00 MiB transferred (11961.58 MiB/sec)
+Minnetest i skrivemodus, Test 88 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 89...
+Skrive: 1024.00 MiB transferred (12003.86 MiB/sec)
+Minnetest i skrivemodus, Test 89 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 90...
+Skrive: 1024.00 MiB transferred (11895.06 MiB/sec)
+Minnetest i skrivemodus, Test 90 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 91...
+Skrive: 1024.00 MiB transferred (11708.61 MiB/sec)
+Minnetest i skrivemodus, Test 91 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 92...
+Skrive: 1024.00 MiB transferred (12057.22 MiB/sec)
+Minnetest i skrivemodus, Test 92 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 93...
+Skrive: 1024.00 MiB transferred (11881.16 MiB/sec)
+Minnetest i skrivemodus, Test 93 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 94...
+Skrive: 1024.00 MiB transferred (11978.27 MiB/sec)
+Minnetest i skrivemodus, Test 94 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 95...
+Skrive: 1024.00 MiB transferred (11821.15 MiB/sec)
+Minnetest i skrivemodus, Test 95 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 96...
+Skrive: 1024.00 MiB transferred (11553.20 MiB/sec)
+Minnetest i skrivemodus, Test 96 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 97...
+Skrive: 1024.00 MiB transferred (11643.82 MiB/sec)
+Minnetest i skrivemodus, Test 97 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 98...
+Skrive: 1024.00 MiB transferred (11911.23 MiB/sec)
+Minnetest i skrivemodus, Test 98 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 99...
+Skrive: 1024.00 MiB transferred (11737.18 MiB/sec)
+Minnetest i skrivemodus, Test 99 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 100...
+Skrive: 1024.00 MiB transferred (11786.12 MiB/sec)
+Minnetest i skrivemodus, Test 100 fullført.
+--------------------------------------------------
+Starter write test, Test 1...
+Sekvensiell write: IOPS = 297
+Fio write test, Test 1 fullført.
+--------------------------------------------------
+Starter write test, Test 2...
+Sekvensiell write: IOPS = 300
+Fio write test, Test 2 fullført.
+--------------------------------------------------
+Starter write test, Test 3...
+Sekvensiell write: IOPS = 269
+Fio write test, Test 3 fullført.
+--------------------------------------------------
+Starter write test, Test 4...
+Sekvensiell write: IOPS = 300
+Fio write test, Test 4 fullført.
+--------------------------------------------------
+Starter write test, Test 5...
+Sekvensiell write: IOPS = 267
+Fio write test, Test 5 fullført.
+--------------------------------------------------
+Starter write test, Test 6...
+Sekvensiell write: IOPS = 265
+Fio write test, Test 6 fullført.
+--------------------------------------------------
+Starter write test, Test 7...
+Sekvensiell write: IOPS = 299
+Fio write test, Test 7 fullført.
+--------------------------------------------------
+Starter write test, Test 8...
+Sekvensiell write: IOPS = 265
+Fio write test, Test 8 fullført.
+--------------------------------------------------
+Starter write test, Test 9...
+Sekvensiell write: IOPS = 296
+Fio write test, Test 9 fullført.
+--------------------------------------------------
+Starter write test, Test 10...
+Sekvensiell write: IOPS = 267
+Fio write test, Test 10 fullført.
+--------------------------------------------------
+Starter write test, Test 11...
+Sekvensiell write: IOPS = 297
+Fio write test, Test 11 fullført.
+--------------------------------------------------
+Starter write test, Test 12...
+Sekvensiell write: IOPS = 240
+Fio write test, Test 12 fullført.
+--------------------------------------------------
+Starter write test, Test 13...
+Sekvensiell write: IOPS = 268
+Fio write test, Test 13 fullført.
+--------------------------------------------------
+Starter write test, Test 14...
+Sekvensiell write: IOPS = 267
+Fio write test, Test 14 fullført.
+--------------------------------------------------
+Starter write test, Test 15...
+Sekvensiell write: IOPS = 300
+Fio write test, Test 15 fullført.
+--------------------------------------------------
+Starter write test, Test 16...
+Sekvensiell write: IOPS = 264
+Fio write test, Test 16 fullført.
+--------------------------------------------------
+Starter write test, Test 17...
+Sekvensiell write: IOPS = 302
+Fio write test, Test 17 fullført.
+--------------------------------------------------
+Starter write test, Test 18...
+Sekvensiell write: IOPS = 304
+Fio write test, Test 18 fullført.
+--------------------------------------------------
+Starter write test, Test 19...
+Sekvensiell write: IOPS = 301
+Fio write test, Test 19 fullført.
+--------------------------------------------------
+Starter write test, Test 20...
+Sekvensiell write: IOPS = 300
+Fio write test, Test 20 fullført.
+--------------------------------------------------
+Starter write test, Test 21...
+Sekvensiell write: IOPS = 270
+Fio write test, Test 21 fullført.
+--------------------------------------------------
+Starter write test, Test 22...
+Sekvensiell write: IOPS = 300
+Fio write test, Test 22 fullført.
+--------------------------------------------------
+Starter write test, Test 23...
+Sekvensiell write: IOPS = 302
+Fio write test, Test 23 fullført.
+--------------------------------------------------
+Starter write test, Test 24...
+Sekvensiell write: IOPS = 266
+Fio write test, Test 24 fullført.
+--------------------------------------------------
+Starter write test, Test 25...
+Sekvensiell write: IOPS = 300
+Fio write test, Test 25 fullført.
+--------------------------------------------------
+Starter write test, Test 26...
+Sekvensiell write: IOPS = 267
+Fio write test, Test 26 fullført.
+--------------------------------------------------
+Starter write test, Test 27...
+Sekvensiell write: IOPS = 299
+Fio write test, Test 27 fullført.
+--------------------------------------------------
+Starter write test, Test 28...
+Sekvensiell write: IOPS = 298
+Fio write test, Test 28 fullført.
+--------------------------------------------------
+Starter write test, Test 29...
+Sekvensiell write: IOPS = 266
+Fio write test, Test 29 fullført.
+--------------------------------------------------
+Starter write test, Test 30...
+Sekvensiell write: IOPS = 267
+Fio write test, Test 30 fullført.
+--------------------------------------------------
+Starter write test, Test 31...
+Sekvensiell write: IOPS = 301
+Fio write test, Test 31 fullført.
+--------------------------------------------------
+Starter write test, Test 32...
+Sekvensiell write: IOPS = 296
+Fio write test, Test 32 fullført.
+--------------------------------------------------
+Starter write test, Test 33...
+Sekvensiell write: IOPS = 299
+Fio write test, Test 33 fullført.
+--------------------------------------------------
+Starter write test, Test 34...
+Sekvensiell write: IOPS = 267
+Fio write test, Test 34 fullført.
+--------------------------------------------------
+Starter write test, Test 35...
+Sekvensiell write: IOPS = 239
+Fio write test, Test 35 fullført.
+--------------------------------------------------
+Starter write test, Test 36...
+Sekvensiell write: IOPS = 301
+Fio write test, Test 36 fullført.
+--------------------------------------------------
+Starter write test, Test 37...
+Sekvensiell write: IOPS = 302
+Fio write test, Test 37 fullført.
+--------------------------------------------------
+Starter write test, Test 38...
+Sekvensiell write: IOPS = 272
+Fio write test, Test 38 fullført.
+--------------------------------------------------
+Starter write test, Test 39...
+Sekvensiell write: IOPS = 307
+Fio write test, Test 39 fullført.
+--------------------------------------------------
+Starter write test, Test 40...
+Sekvensiell write: IOPS = 270
+Fio write test, Test 40 fullført.
+--------------------------------------------------
+Starter write test, Test 41...
+Sekvensiell write: IOPS = 305
+Fio write test, Test 41 fullført.
+--------------------------------------------------
+Starter write test, Test 42...
+Sekvensiell write: IOPS = 264
+Fio write test, Test 42 fullført.
+--------------------------------------------------
+Starter write test, Test 43...
+Sekvensiell write: IOPS = 297
+Fio write test, Test 43 fullført.
+--------------------------------------------------
+Starter write test, Test 44...
+Sekvensiell write: IOPS = 302
+Fio write test, Test 44 fullført.
+--------------------------------------------------
+Starter write test, Test 45...
+Sekvensiell write: IOPS = 303
+Fio write test, Test 45 fullført.
+--------------------------------------------------
+Starter write test, Test 46...
+Sekvensiell write: IOPS = 302
+Fio write test, Test 46 fullført.
+--------------------------------------------------
+Starter write test, Test 47...
+Sekvensiell write: IOPS = 261
+Fio write test, Test 47 fullført.
+--------------------------------------------------
+Starter write test, Test 48...
+Sekvensiell write: IOPS = 268
+Fio write test, Test 48 fullført.
+--------------------------------------------------
+Starter write test, Test 49...
+Sekvensiell write: IOPS = 266
+Fio write test, Test 49 fullført.
+--------------------------------------------------
+Starter write test, Test 50...
+Sekvensiell write: IOPS = 302
+Fio write test, Test 50 fullført.
+--------------------------------------------------
+Starter write test, Test 51...
+Sekvensiell write: IOPS = 264
+Fio write test, Test 51 fullført.
+--------------------------------------------------
+Starter write test, Test 52...
+Sekvensiell write: IOPS = 239
+Fio write test, Test 52 fullført.
+--------------------------------------------------
+Starter write test, Test 53...
+Sekvensiell write: IOPS = 302
+Fio write test, Test 53 fullført.
+--------------------------------------------------
+Starter write test, Test 54...
+Sekvensiell write: IOPS = 271
+Fio write test, Test 54 fullført.
+--------------------------------------------------
+Starter write test, Test 55...
+Sekvensiell write: IOPS = 308
+Fio write test, Test 55 fullført.
+--------------------------------------------------
+Starter write test, Test 56...
+Sekvensiell write: IOPS = 292
+Fio write test, Test 56 fullført.
+--------------------------------------------------
+Starter write test, Test 57...
+Sekvensiell write: IOPS = 268
+Fio write test, Test 57 fullført.
+--------------------------------------------------
+Starter write test, Test 58...
+Sekvensiell write: IOPS = 294
+Fio write test, Test 58 fullført.
+--------------------------------------------------
+Starter write test, Test 59...
+Sekvensiell write: IOPS = 282
+Fio write test, Test 59 fullført.
+--------------------------------------------------
+Starter write test, Test 60...
+Sekvensiell write: IOPS = 265
+Fio write test, Test 60 fullført.
+--------------------------------------------------
+Starter write test, Test 61...
+Sekvensiell write: IOPS = 270
+Fio write test, Test 61 fullført.
+--------------------------------------------------
+Starter write test, Test 62...
+Sekvensiell write: IOPS = 239
+Fio write test, Test 62 fullført.
+--------------------------------------------------
+Starter write test, Test 63...
+Sekvensiell write: IOPS = 301
+Fio write test, Test 63 fullført.
+--------------------------------------------------
+Starter write test, Test 64...
+Sekvensiell write: IOPS = 265
+Fio write test, Test 64 fullført.
+--------------------------------------------------
+Starter write test, Test 65...
+Sekvensiell write: IOPS = 262
+Fio write test, Test 65 fullført.
+--------------------------------------------------
+Starter write test, Test 66...
+Sekvensiell write: IOPS = 266
+Fio write test, Test 66 fullført.
+--------------------------------------------------
+Starter write test, Test 67...
+Sekvensiell write: IOPS = 302
+Fio write test, Test 67 fullført.
+--------------------------------------------------
+Starter write test, Test 68...
+Sekvensiell write: IOPS = 262
+Fio write test, Test 68 fullført.
+--------------------------------------------------
+Starter write test, Test 69...
+Sekvensiell write: IOPS = 299
+Fio write test, Test 69 fullført.
+--------------------------------------------------
+Starter write test, Test 70...
+Sekvensiell write: IOPS = 292
+Fio write test, Test 70 fullført.
+--------------------------------------------------
+Starter write test, Test 71...
+Sekvensiell write: IOPS = 238
+Fio write test, Test 71 fullført.
+--------------------------------------------------
+Starter write test, Test 72...
+Sekvensiell write: IOPS = 301
+Fio write test, Test 72 fullført.
+--------------------------------------------------
+Starter write test, Test 73...
+Sekvensiell write: IOPS = 266
+Fio write test, Test 73 fullført.
+--------------------------------------------------
+Starter write test, Test 74...
+Sekvensiell write: IOPS = 302
+Fio write test, Test 74 fullført.
+--------------------------------------------------
+Starter write test, Test 75...
+Sekvensiell write: IOPS = 304
+Fio write test, Test 75 fullført.
+--------------------------------------------------
+Starter write test, Test 76...
+Sekvensiell write: IOPS = 266
+Fio write test, Test 76 fullført.
+--------------------------------------------------
+Starter write test, Test 77...
+Sekvensiell write: IOPS = 300
+Fio write test, Test 77 fullført.
+--------------------------------------------------
+Starter write test, Test 78...
+Sekvensiell write: IOPS = 240
+Fio write test, Test 78 fullført.
+--------------------------------------------------
+Starter write test, Test 79...
+Sekvensiell write: IOPS = 300
+Fio write test, Test 79 fullført.
+--------------------------------------------------
+Starter write test, Test 80...
+Sekvensiell write: IOPS = 261
+Fio write test, Test 80 fullført.
+--------------------------------------------------
+Starter write test, Test 81...
+Sekvensiell write: IOPS = 301
+Fio write test, Test 81 fullført.
+--------------------------------------------------
+Starter write test, Test 82...
+Sekvensiell write: IOPS = 267
+Fio write test, Test 82 fullført.
+--------------------------------------------------
+Starter write test, Test 83...
+Sekvensiell write: IOPS = 301
+Fio write test, Test 83 fullført.
+--------------------------------------------------
+Starter write test, Test 84...
+Sekvensiell write: IOPS = 269
+Fio write test, Test 84 fullført.
+--------------------------------------------------
+Starter write test, Test 85...
+Sekvensiell write: IOPS = 264
+Fio write test, Test 85 fullført.
+--------------------------------------------------
+Starter write test, Test 86...
+Sekvensiell write: IOPS = 265
+Fio write test, Test 86 fullført.
+--------------------------------------------------
+Starter write test, Test 87...
+Sekvensiell write: IOPS = 268
+Fio write test, Test 87 fullført.
+--------------------------------------------------
+Starter write test, Test 88...
+Sekvensiell write: IOPS = 301
+Fio write test, Test 88 fullført.
+--------------------------------------------------
+Starter write test, Test 89...
+Sekvensiell write: IOPS = 295
+Fio write test, Test 89 fullført.
+--------------------------------------------------
+Starter write test, Test 90...
+Sekvensiell write: IOPS = 262
+Fio write test, Test 90 fullført.
+--------------------------------------------------
+Starter write test, Test 91...
+Sekvensiell write: IOPS = 304
+Fio write test, Test 91 fullført.
+--------------------------------------------------
+Starter write test, Test 92...
+Sekvensiell write: IOPS = 266
+Fio write test, Test 92 fullført.
+--------------------------------------------------
+Starter write test, Test 93...
+Sekvensiell write: IOPS = 299
+Fio write test, Test 93 fullført.
+--------------------------------------------------
+Starter write test, Test 94...
+Sekvensiell write: IOPS = 300
+Fio write test, Test 94 fullført.
+--------------------------------------------------
+Starter write test, Test 95...
+Sekvensiell write: IOPS = 304
+Fio write test, Test 95 fullført.
+--------------------------------------------------
+Starter write test, Test 96...
+Sekvensiell write: IOPS = 267
+Fio write test, Test 96 fullført.
+--------------------------------------------------
+Starter write test, Test 97...
+Sekvensiell write: IOPS = 266
+Fio write test, Test 97 fullført.
+--------------------------------------------------
+Starter write test, Test 98...
+Sekvensiell write: IOPS = 302
+Fio write test, Test 98 fullført.
+--------------------------------------------------
+Starter write test, Test 99...
+Sekvensiell write: IOPS = 305
+Fio write test, Test 99 fullført.
+--------------------------------------------------
+Starter write test, Test 100...
+Sekvensiell write: IOPS = 273
+Fio write test, Test 100 fullført.
+--------------------------------------------------
+Starter read test, Test 1...
+Sekvensiell read: IOPS = 444
+Fio read test, Test 1 fullført.
+--------------------------------------------------
+Starter read test, Test 2...
+Sekvensiell read: IOPS = 438
+Fio read test, Test 2 fullført.
+--------------------------------------------------
+Starter read test, Test 3...
+Sekvensiell read: IOPS = 445
+Fio read test, Test 3 fullført.
+--------------------------------------------------
+Starter read test, Test 4...
+Sekvensiell read: IOPS = 431
+Fio read test, Test 4 fullført.
+--------------------------------------------------
+Starter read test, Test 5...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 5 fullført.
+--------------------------------------------------
+Starter read test, Test 6...
+Sekvensiell read: IOPS = 438
+Fio read test, Test 6 fullført.
+--------------------------------------------------
+Starter read test, Test 7...
+Sekvensiell read: IOPS = 434
+Fio read test, Test 7 fullført.
+--------------------------------------------------
+Starter read test, Test 8...
+Sekvensiell read: IOPS = 438
+Fio read test, Test 8 fullført.
+--------------------------------------------------
+Starter read test, Test 9...
+Sekvensiell read: IOPS = 438
+Fio read test, Test 9 fullført.
+--------------------------------------------------
+Starter read test, Test 10...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 10 fullført.
+--------------------------------------------------
+Starter read test, Test 11...
+Sekvensiell read: IOPS = 439
+Fio read test, Test 11 fullført.
+--------------------------------------------------
+Starter read test, Test 12...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 12 fullført.
+--------------------------------------------------
+Starter read test, Test 13...
+Sekvensiell read: IOPS = 439
+Fio read test, Test 13 fullført.
+--------------------------------------------------
+Starter read test, Test 14...
+Sekvensiell read: IOPS = 439
+Fio read test, Test 14 fullført.
+--------------------------------------------------
+Starter read test, Test 15...
+Sekvensiell read: IOPS = 431
+Fio read test, Test 15 fullført.
+--------------------------------------------------
+Starter read test, Test 16...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 16 fullført.
+--------------------------------------------------
+Starter read test, Test 17...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 17 fullført.
+--------------------------------------------------
+Starter read test, Test 18...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 18 fullført.
+--------------------------------------------------
+Starter read test, Test 19...
+Sekvensiell read: IOPS = 444
+Fio read test, Test 19 fullført.
+--------------------------------------------------
+Starter read test, Test 20...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 20 fullført.
+--------------------------------------------------
+Starter read test, Test 21...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 21 fullført.
+--------------------------------------------------
+Starter read test, Test 22...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 22 fullført.
+--------------------------------------------------
+Starter read test, Test 23...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 23 fullført.
+--------------------------------------------------
+Starter read test, Test 24...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 24 fullført.
+--------------------------------------------------
+Starter read test, Test 25...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 25 fullført.
+--------------------------------------------------
+Starter read test, Test 26...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 26 fullført.
+--------------------------------------------------
+Starter read test, Test 27...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 27 fullført.
+--------------------------------------------------
+Starter read test, Test 28...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 28 fullført.
+--------------------------------------------------
+Starter read test, Test 29...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 29 fullført.
+--------------------------------------------------
+Starter read test, Test 30...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 30 fullført.
+--------------------------------------------------
+Starter read test, Test 31...
+Sekvensiell read: IOPS = 444
+Fio read test, Test 31 fullført.
+--------------------------------------------------
+Starter read test, Test 32...
+Sekvensiell read: IOPS = 445
+Fio read test, Test 32 fullført.
+--------------------------------------------------
+Starter read test, Test 33...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 33 fullført.
+--------------------------------------------------
+Starter read test, Test 34...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 34 fullført.
+--------------------------------------------------
+Starter read test, Test 35...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 35 fullført.
+--------------------------------------------------
+Starter read test, Test 36...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 36 fullført.
+--------------------------------------------------
+Starter read test, Test 37...
+Sekvensiell read: IOPS = 439
+Fio read test, Test 37 fullført.
+--------------------------------------------------
+Starter read test, Test 38...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 38 fullført.
+--------------------------------------------------
+Starter read test, Test 39...
+Sekvensiell read: IOPS = 429
+Fio read test, Test 39 fullført.
+--------------------------------------------------
+Starter read test, Test 40...
+Sekvensiell read: IOPS = 444
+Fio read test, Test 40 fullført.
+--------------------------------------------------
+Starter read test, Test 41...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 41 fullført.
+--------------------------------------------------
+Starter read test, Test 42...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 42 fullført.
+--------------------------------------------------
+Starter read test, Test 43...
+Sekvensiell read: IOPS = 435
+Fio read test, Test 43 fullført.
+--------------------------------------------------
+Starter read test, Test 44...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 44 fullført.
+--------------------------------------------------
+Starter read test, Test 45...
+Sekvensiell read: IOPS = 446
+Fio read test, Test 45 fullført.
+--------------------------------------------------
+Starter read test, Test 46...
+Sekvensiell read: IOPS = 446
+Fio read test, Test 46 fullført.
+--------------------------------------------------
+Starter read test, Test 47...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 47 fullført.
+--------------------------------------------------
+Starter read test, Test 48...
+Sekvensiell read: IOPS = 439
+Fio read test, Test 48 fullført.
+--------------------------------------------------
+Starter read test, Test 49...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 49 fullført.
+--------------------------------------------------
+Starter read test, Test 50...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 50 fullført.
+--------------------------------------------------
+Starter read test, Test 51...
+Sekvensiell read: IOPS = 439
+Fio read test, Test 51 fullført.
+--------------------------------------------------
+Starter read test, Test 52...
+Sekvensiell read: IOPS = 439
+Fio read test, Test 52 fullført.
+--------------------------------------------------
+Starter read test, Test 53...
+Sekvensiell read: IOPS = 449
+Fio read test, Test 53 fullført.
+--------------------------------------------------
+Starter read test, Test 54...
+Sekvensiell read: IOPS = 439
+Fio read test, Test 54 fullført.
+--------------------------------------------------
+Starter read test, Test 55...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 55 fullført.
+--------------------------------------------------
+Starter read test, Test 56...
+Sekvensiell read: IOPS = 439
+Fio read test, Test 56 fullført.
+--------------------------------------------------
+Starter read test, Test 57...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 57 fullført.
+--------------------------------------------------
+Starter read test, Test 58...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 58 fullført.
+--------------------------------------------------
+Starter read test, Test 59...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 59 fullført.
+--------------------------------------------------
+Starter read test, Test 60...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 60 fullført.
+--------------------------------------------------
+Starter read test, Test 61...
+Sekvensiell read: IOPS = 445
+Fio read test, Test 61 fullført.
+--------------------------------------------------
+Starter read test, Test 62...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 62 fullført.
+--------------------------------------------------
+Starter read test, Test 63...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 63 fullført.
+--------------------------------------------------
+Starter read test, Test 64...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 64 fullført.
+--------------------------------------------------
+Starter read test, Test 65...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 65 fullført.
+--------------------------------------------------
+Starter read test, Test 66...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 66 fullført.
+--------------------------------------------------
+Starter read test, Test 67...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 67 fullført.
+--------------------------------------------------
+Starter read test, Test 68...
+Sekvensiell read: IOPS = 438
+Fio read test, Test 68 fullført.
+--------------------------------------------------
+Starter read test, Test 69...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 69 fullført.
+--------------------------------------------------
+Starter read test, Test 70...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 70 fullført.
+--------------------------------------------------
+Starter read test, Test 71...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 71 fullført.
+--------------------------------------------------
+Starter read test, Test 72...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 72 fullført.
+--------------------------------------------------
+Starter read test, Test 73...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 73 fullført.
+--------------------------------------------------
+Starter read test, Test 74...
+Sekvensiell read: IOPS = 444
+Fio read test, Test 74 fullført.
+--------------------------------------------------
+Starter read test, Test 75...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 75 fullført.
+--------------------------------------------------
+Starter read test, Test 76...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 76 fullført.
+--------------------------------------------------
+Starter read test, Test 77...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 77 fullført.
+--------------------------------------------------
+Starter read test, Test 78...
+Sekvensiell read: IOPS = 439
+Fio read test, Test 78 fullført.
+--------------------------------------------------
+Starter read test, Test 79...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 79 fullført.
+--------------------------------------------------
+Starter read test, Test 80...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 80 fullført.
+--------------------------------------------------
+Starter read test, Test 81...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 81 fullført.
+--------------------------------------------------
+Starter read test, Test 82...
+Sekvensiell read: IOPS = 438
+Fio read test, Test 82 fullført.
+--------------------------------------------------
+Starter read test, Test 83...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 83 fullført.
+--------------------------------------------------
+Starter read test, Test 84...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 84 fullført.
+--------------------------------------------------
+Starter read test, Test 85...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 85 fullført.
+--------------------------------------------------
+Starter read test, Test 86...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 86 fullført.
+--------------------------------------------------
+Starter read test, Test 87...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 87 fullført.
+--------------------------------------------------
+Starter read test, Test 88...
+Sekvensiell read: IOPS = 446
+Fio read test, Test 88 fullført.
+--------------------------------------------------
+Starter read test, Test 89...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 89 fullført.
+--------------------------------------------------
+Starter read test, Test 90...
+Sekvensiell read: IOPS = 451
+Fio read test, Test 90 fullført.
+--------------------------------------------------
+Starter read test, Test 91...
+Sekvensiell read: IOPS = 446
+Fio read test, Test 91 fullført.
+--------------------------------------------------
+Starter read test, Test 92...
+Sekvensiell read: IOPS = 447
+Fio read test, Test 92 fullført.
+--------------------------------------------------
+Starter read test, Test 93...
+Sekvensiell read: IOPS = 441
+Fio read test, Test 93 fullført.
+--------------------------------------------------
+Starter read test, Test 94...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 94 fullført.
+--------------------------------------------------
+Starter read test, Test 95...
+Sekvensiell read: IOPS = 439
+Fio read test, Test 95 fullført.
+--------------------------------------------------
+Starter read test, Test 96...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 96 fullført.
+--------------------------------------------------
+Starter read test, Test 97...
+Sekvensiell read: IOPS = 440
+Fio read test, Test 97 fullført.
+--------------------------------------------------
+Starter read test, Test 98...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 98 fullført.
+--------------------------------------------------
+Starter read test, Test 99...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 99 fullført.
+--------------------------------------------------
+Starter read test, Test 100...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 100 fullført.
+--------------------------------------------------
