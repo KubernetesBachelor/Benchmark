@@ -1,0 +1,463 @@
+Starter stresstesting av konteineren ...
+Test 1: Starter CPU-test med 1 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              32834
+Tråder: 1, cpu-max-prime=10000, Test 1 fullført
+--------------------------------------------------
+Test 2: Starter CPU-test med 1 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0009s
+    total number of events:              31411
+Tråder: 1, cpu-max-prime=10000, Test 2 fullført
+--------------------------------------------------
+Test 3: Starter CPU-test med 1 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              31649
+Tråder: 1, cpu-max-prime=10000, Test 3 fullført
+--------------------------------------------------
+Test 4: Starter CPU-test med 1 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              32600
+Tråder: 1, cpu-max-prime=10000, Test 4 fullført
+--------------------------------------------------
+Test 5: Starter CPU-test med 1 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0014s
+    total number of events:              30243
+Tråder: 1, cpu-max-prime=10000, Test 5 fullført
+--------------------------------------------------
+Test 6: Starter CPU-test med 1 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              28778
+Tråder: 1, cpu-max-prime=10000, Test 6 fullført
+--------------------------------------------------
+Test 7: Starter CPU-test med 1 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              31554
+Tråder: 1, cpu-max-prime=10000, Test 7 fullført
+--------------------------------------------------
+Test 8: Starter CPU-test med 1 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0009s
+    total number of events:              29762
+Tråder: 1, cpu-max-prime=10000, Test 8 fullført
+--------------------------------------------------
+Test 9: Starter CPU-test med 1 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              30566
+Tråder: 1, cpu-max-prime=10000, Test 9 fullført
+--------------------------------------------------
+Test 10: Starter CPU-test med 1 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              30315
+Tråder: 1, cpu-max-prime=10000, Test 10 fullført
+--------------------------------------------------
+Test 1: Starter CPU-test med 1 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0037s
+    total number of events:              12721
+Tråder: 1, cpu-max-prime=20000, Test 1 fullført
+--------------------------------------------------
+Test 2: Starter CPU-test med 1 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0026s
+    total number of events:              11722
+Tråder: 1, cpu-max-prime=20000, Test 2 fullført
+--------------------------------------------------
+Test 3: Starter CPU-test med 1 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0014s
+    total number of events:              11516
+Tråder: 1, cpu-max-prime=20000, Test 3 fullført
+--------------------------------------------------
+Test 4: Starter CPU-test med 1 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0015s
+    total number of events:              11893
+Tråder: 1, cpu-max-prime=20000, Test 4 fullført
+--------------------------------------------------
+Test 5: Starter CPU-test med 1 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0020s
+    total number of events:              11621
+Tråder: 1, cpu-max-prime=20000, Test 5 fullført
+--------------------------------------------------
+Test 6: Starter CPU-test med 1 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0043s
+    total number of events:              11914
+Tråder: 1, cpu-max-prime=20000, Test 6 fullført
+--------------------------------------------------
+Test 7: Starter CPU-test med 1 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0017s
+    total number of events:              11432
+Tråder: 1, cpu-max-prime=20000, Test 7 fullført
+--------------------------------------------------
+Test 8: Starter CPU-test med 1 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0009s
+    total number of events:              12084
+Tråder: 1, cpu-max-prime=20000, Test 8 fullført
+--------------------------------------------------
+Test 9: Starter CPU-test med 1 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0015s
+    total number of events:              11858
+Tråder: 1, cpu-max-prime=20000, Test 9 fullført
+--------------------------------------------------
+Test 10: Starter CPU-test med 1 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0001s
+    total number of events:              10873
+Tråder: 1, cpu-max-prime=20000, Test 10 fullført
+--------------------------------------------------
+Test 1: Starter CPU-test med 1 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              6803
+Tråder: 1, cpu-max-prime=30000, Test 1 fullført
+--------------------------------------------------
+Test 2: Starter CPU-test med 1 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0039s
+    total number of events:              6939
+Tråder: 1, cpu-max-prime=30000, Test 2 fullført
+--------------------------------------------------
+Test 3: Starter CPU-test med 1 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0083s
+    total number of events:              6402
+Tråder: 1, cpu-max-prime=30000, Test 3 fullført
+--------------------------------------------------
+Test 4: Starter CPU-test med 1 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0013s
+    total number of events:              6561
+Tråder: 1, cpu-max-prime=30000, Test 4 fullført
+--------------------------------------------------
+Test 5: Starter CPU-test med 1 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0082s
+    total number of events:              6746
+Tråder: 1, cpu-max-prime=30000, Test 5 fullført
+--------------------------------------------------
+Test 6: Starter CPU-test med 1 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0024s
+    total number of events:              6526
+Tråder: 1, cpu-max-prime=30000, Test 6 fullført
+--------------------------------------------------
+Test 7: Starter CPU-test med 1 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0043s
+    total number of events:              6606
+Tråder: 1, cpu-max-prime=30000, Test 7 fullført
+--------------------------------------------------
+Test 8: Starter CPU-test med 1 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0012s
+    total number of events:              6973
+Tråder: 1, cpu-max-prime=30000, Test 8 fullført
+--------------------------------------------------
+Test 9: Starter CPU-test med 1 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0017s
+    total number of events:              6475
+Tråder: 1, cpu-max-prime=30000, Test 9 fullført
+--------------------------------------------------
+Test 10: Starter CPU-test med 1 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0001s
+    total number of events:              6502
+Tråder: 1, cpu-max-prime=30000, Test 10 fullført
+--------------------------------------------------
+Test 1: Starter CPU-test med 2 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              59008
+Tråder: 2, cpu-max-prime=10000, Test 1 fullført
+--------------------------------------------------
+Test 2: Starter CPU-test med 2 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0010s
+    total number of events:              57574
+Tråder: 2, cpu-max-prime=10000, Test 2 fullført
+--------------------------------------------------
+Test 3: Starter CPU-test med 2 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0003s
+    total number of events:              56592
+Tråder: 2, cpu-max-prime=10000, Test 3 fullført
+--------------------------------------------------
+Test 4: Starter CPU-test med 2 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0010s
+    total number of events:              56605
+Tråder: 2, cpu-max-prime=10000, Test 4 fullført
+--------------------------------------------------
+Test 5: Starter CPU-test med 2 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              56660
+Tråder: 2, cpu-max-prime=10000, Test 5 fullført
+--------------------------------------------------
+Test 6: Starter CPU-test med 2 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              57693
+Tråder: 2, cpu-max-prime=10000, Test 6 fullført
+--------------------------------------------------
+Test 7: Starter CPU-test med 2 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              57258
+Tråder: 2, cpu-max-prime=10000, Test 7 fullført
+--------------------------------------------------
+Test 8: Starter CPU-test med 2 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0007s
+    total number of events:              56000
+Tråder: 2, cpu-max-prime=10000, Test 8 fullført
+--------------------------------------------------
+Test 9: Starter CPU-test med 2 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              57284
+Tråder: 2, cpu-max-prime=10000, Test 9 fullført
+--------------------------------------------------
+Test 10: Starter CPU-test med 2 tråd(er) og cpu-max-prime=10000 for 30 sekunder...
+    total time:                          30.0009s
+    total number of events:              56304
+Tråder: 2, cpu-max-prime=10000, Test 10 fullført
+--------------------------------------------------
+Test 1: Starter CPU-test med 2 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0023s
+    total number of events:              21951
+Tråder: 2, cpu-max-prime=20000, Test 1 fullført
+--------------------------------------------------
+Test 2: Starter CPU-test med 2 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0008s
+    total number of events:              22151
+Tråder: 2, cpu-max-prime=20000, Test 2 fullført
+--------------------------------------------------
+Test 3: Starter CPU-test med 2 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0020s
+    total number of events:              22322
+Tråder: 2, cpu-max-prime=20000, Test 3 fullført
+--------------------------------------------------
+Test 4: Starter CPU-test med 2 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0017s
+    total number of events:              22108
+Tråder: 2, cpu-max-prime=20000, Test 4 fullført
+--------------------------------------------------
+Test 5: Starter CPU-test med 2 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0018s
+    total number of events:              21548
+Tråder: 2, cpu-max-prime=20000, Test 5 fullført
+--------------------------------------------------
+Test 6: Starter CPU-test med 2 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0019s
+    total number of events:              21621
+Tråder: 2, cpu-max-prime=20000, Test 6 fullført
+--------------------------------------------------
+Test 7: Starter CPU-test med 2 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0019s
+    total number of events:              22026
+Tråder: 2, cpu-max-prime=20000, Test 7 fullført
+--------------------------------------------------
+Test 8: Starter CPU-test med 2 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0023s
+    total number of events:              22294
+Tråder: 2, cpu-max-prime=20000, Test 8 fullført
+--------------------------------------------------
+Test 9: Starter CPU-test med 2 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0004s
+    total number of events:              22395
+Tråder: 2, cpu-max-prime=20000, Test 9 fullført
+--------------------------------------------------
+Test 10: Starter CPU-test med 2 tråd(er) og cpu-max-prime=20000 for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              22434
+Tråder: 2, cpu-max-prime=20000, Test 10 fullført
+--------------------------------------------------
+Test 1: Starter CPU-test med 2 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0038s
+    total number of events:              12882
+Tråder: 2, cpu-max-prime=30000, Test 1 fullført
+--------------------------------------------------
+Test 2: Starter CPU-test med 2 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0002s
+    total number of events:              12852
+Tråder: 2, cpu-max-prime=30000, Test 2 fullført
+--------------------------------------------------
+Test 3: Starter CPU-test med 2 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0041s
+    total number of events:              12821
+Tråder: 2, cpu-max-prime=30000, Test 3 fullført
+--------------------------------------------------
+Test 4: Starter CPU-test med 2 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0025s
+    total number of events:              12825
+Tråder: 2, cpu-max-prime=30000, Test 4 fullført
+--------------------------------------------------
+Test 5: Starter CPU-test med 2 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0017s
+    total number of events:              12552
+Tråder: 2, cpu-max-prime=30000, Test 5 fullført
+--------------------------------------------------
+Test 6: Starter CPU-test med 2 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0013s
+    total number of events:              12431
+Tråder: 2, cpu-max-prime=30000, Test 6 fullført
+--------------------------------------------------
+Test 7: Starter CPU-test med 2 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0014s
+    total number of events:              12464
+Tråder: 2, cpu-max-prime=30000, Test 7 fullført
+--------------------------------------------------
+Test 8: Starter CPU-test med 2 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0006s
+    total number of events:              12802
+Tråder: 2, cpu-max-prime=30000, Test 8 fullført
+--------------------------------------------------
+Test 9: Starter CPU-test med 2 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0030s
+    total number of events:              12552
+Tråder: 2, cpu-max-prime=30000, Test 9 fullført
+--------------------------------------------------
+Test 10: Starter CPU-test med 2 tråd(er) og cpu-max-prime=30000 for 30 sekunder...
+    total time:                          30.0035s
+    total number of events:              12876
+Tråder: 2, cpu-max-prime=30000, Test 10 fullført
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 1...
+Lese: 1024.00 MiB transferred (10501.76 MiB/sec)
+Minnetest i lesemodus, Test 1 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 2...
+Lese: 1024.00 MiB transferred (10871.68 MiB/sec)
+Minnetest i lesemodus, Test 2 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 3...
+Lese: 1024.00 MiB transferred (10245.73 MiB/sec)
+Minnetest i lesemodus, Test 3 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 4...
+Lese: 1024.00 MiB transferred (10586.50 MiB/sec)
+Minnetest i lesemodus, Test 4 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 5...
+Lese: 1024.00 MiB transferred (10700.01 MiB/sec)
+Minnetest i lesemodus, Test 5 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 6...
+Lese: 1024.00 MiB transferred (11233.25 MiB/sec)
+Minnetest i lesemodus, Test 6 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 7...
+Lese: 1024.00 MiB transferred (11194.14 MiB/sec)
+Minnetest i lesemodus, Test 7 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 8...
+Lese: 1024.00 MiB transferred (10874.52 MiB/sec)
+Minnetest i lesemodus, Test 8 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 9...
+Lese: 1024.00 MiB transferred (11115.29 MiB/sec)
+Minnetest i lesemodus, Test 9 fullført.
+--------------------------------------------------
+Starter minnetest i lesemodus, Test 10...
+Lese: 1024.00 MiB transferred (11223.57 MiB/sec)
+Minnetest i lesemodus, Test 10 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 1...
+Skrive: 1024.00 MiB transferred (11532.40 MiB/sec)
+Minnetest i skrivemodus, Test 1 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 2...
+Skrive: 1024.00 MiB transferred (12004.84 MiB/sec)
+Minnetest i skrivemodus, Test 2 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 3...
+Skrive: 1024.00 MiB transferred (11881.94 MiB/sec)
+Minnetest i skrivemodus, Test 3 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 4...
+Skrive: 1024.00 MiB transferred (11846.59 MiB/sec)
+Minnetest i skrivemodus, Test 4 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 5...
+Skrive: 1024.00 MiB transferred (11811.01 MiB/sec)
+Minnetest i skrivemodus, Test 5 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 6...
+Skrive: 1024.00 MiB transferred (11935.65 MiB/sec)
+Minnetest i skrivemodus, Test 6 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 7...
+Skrive: 1024.00 MiB transferred (10753.21 MiB/sec)
+Minnetest i skrivemodus, Test 7 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 8...
+Skrive: 1024.00 MiB transferred (11878.61 MiB/sec)
+Minnetest i skrivemodus, Test 8 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 9...
+Skrive: 1024.00 MiB transferred (12075.96 MiB/sec)
+Minnetest i skrivemodus, Test 9 fullført.
+--------------------------------------------------
+Starter minnetest i skrivemodus, Test 10...
+Skrive: 1024.00 MiB transferred (9813.25 MiB/sec)
+Minnetest i skrivemodus, Test 10 fullført.
+--------------------------------------------------
+Starter write test, Test 1...
+Sekvensiell write: IOPS = 344
+Fio write test, Test 1 fullført.
+--------------------------------------------------
+Starter write test, Test 2...
+Sekvensiell write: IOPS = 296
+Fio write test, Test 2 fullført.
+--------------------------------------------------
+Starter write test, Test 3...
+Sekvensiell write: IOPS = 300
+Fio write test, Test 3 fullført.
+--------------------------------------------------
+Starter write test, Test 4...
+Sekvensiell write: IOPS = 301
+Fio write test, Test 4 fullført.
+--------------------------------------------------
+Starter write test, Test 5...
+Sekvensiell write: IOPS = 341
+Fio write test, Test 5 fullført.
+--------------------------------------------------
+Starter write test, Test 6...
+Sekvensiell write: IOPS = 302
+Fio write test, Test 6 fullført.
+--------------------------------------------------
+Starter write test, Test 7...
+Sekvensiell write: IOPS = 299
+Fio write test, Test 7 fullført.
+--------------------------------------------------
+Starter write test, Test 8...
+Sekvensiell write: IOPS = 297
+Fio write test, Test 8 fullført.
+--------------------------------------------------
+Starter write test, Test 9...
+Sekvensiell write: IOPS = 302
+Fio write test, Test 9 fullført.
+--------------------------------------------------
+Starter write test, Test 10...
+Sekvensiell write: IOPS = 300
+Fio write test, Test 10 fullført.
+--------------------------------------------------
+Starter read test, Test 1...
+Sekvensiell read: IOPS = 444
+Fio read test, Test 1 fullført.
+--------------------------------------------------
+Starter read test, Test 2...
+Sekvensiell read: IOPS = 432
+Fio read test, Test 2 fullført.
+--------------------------------------------------
+Starter read test, Test 3...
+Sekvensiell read: IOPS = 432
+Fio read test, Test 3 fullført.
+--------------------------------------------------
+Starter read test, Test 4...
+Sekvensiell read: IOPS = 427
+Fio read test, Test 4 fullført.
+--------------------------------------------------
+Starter read test, Test 5...
+Sekvensiell read: IOPS = 437
+Fio read test, Test 5 fullført.
+--------------------------------------------------
+Starter read test, Test 6...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 6 fullført.
+--------------------------------------------------
+Starter read test, Test 7...
+Sekvensiell read: IOPS = 445
+Fio read test, Test 7 fullført.
+--------------------------------------------------
+Starter read test, Test 8...
+Sekvensiell read: IOPS = 442
+Fio read test, Test 8 fullført.
+--------------------------------------------------
+Starter read test, Test 9...
+Sekvensiell read: IOPS = 443
+Fio read test, Test 9 fullført.
+--------------------------------------------------
+Starter read test, Test 10...
+Sekvensiell read: IOPS = 444
+Fio read test, Test 10 fullført.
+--------------------------------------------------
+Testene er fullført og resultatene er lagret i resultater.txt.
+Alle tester fullført.
