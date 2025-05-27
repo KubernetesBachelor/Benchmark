@@ -1,11 +1,13 @@
 ### Baseline
-Denne mappen inneholder dokumentasjon for hvordan ytelsestestene for vertsmaskin, konteiner, VM og Kubernetes ble gjennomført.
-Vedlagt ligger dokumentasjon og installasjonsguide for hvordan de ulike miljøene ble satt opp.
-I tillegg ligger scriptet for ytelsestesten og guide til hvordan testene ble kjørt.
+This folder contains the documentation for the execution of baseline performance tests between the host machine, Docker container, virtual machine and Kubernetes container.
+Attached are documentation and installation guides for how the different environments were established.
+The baseline performance script and guide for using it is also attached.
+
 
 ### Sikkerhetesmekanismer
-Denne mappen inneholder dokumentasjon for hvordan Kubernetes sin ytelse ble målt ved implementering av ulike sikkerhetsmekanismer.
-Vedlagt ligger konfigurasjonsfiler for de ulike sikkerhetsmekanismene og hvordan de ble implementert.
-Sammen med dette ligger hvordan scriptet ble kjørt for å teste ytelsen.
+This folder contains documentation for the execution of how Kubernetes performance were measured with different security mechanisms implemented.
+Attached are the configuration files for the different security mechanisms and how they were implemented.
+The performance script and guide for using it is also attached.
 
-Grafana ble brukt for å overvåke ressuresene i klusteret underveis og oppsett og bilder fra dette ligger også i denne mappen, men disse resultatene ble ikke benyttet i bacheloroppgaven.
+Grafana was used to monitor resource use in the cluster while performing the tests. Implementation and pictured are provided in the folder, but these results are not used in the paper or bachelor thesis.
+
