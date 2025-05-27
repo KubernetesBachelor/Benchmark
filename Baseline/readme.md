@@ -1,17 +1,16 @@
-## Gjennomføre ytelsestest
-"stress_test.sh" er bash scriptet som gjennomfører ytelsestestene ved å bruke verktøyene sysbench og fio. Scriptet blir benyttet i "Dockerfile" for å lage et image med navn "stresstest:v1". Dette Docker imaget blir brukt for å kjøre en Kubernetes-Job ut ifra filen "stresstest-job.yaml".
-Kommando for å bygge imaget og iversette Job'en
+## Performing the performance test
+The "stress_test.sh" Bash script runs the performance tests using the tools Sysbench and Fio. The script is referenced in "Dockerfile" to build a Docker image named "stresstest:v1", which is then used to run a Kubernetes Job defined in the file "stresstest-job.yaml"
+
+###Command to build the image and deploy the Job
 ```
 eval $(minikube docker-env)
 sudo docker build -t stresstest:v1 .
 kubectl apply -f stresstest-job.yaml
 ```
-Etter at scriptet har kjørt ferdig vil resultatene kunne blitt hentet ut ved sjekke loggene til poden som har navn "stresstest-podID".
-Kommando for å lese logger
+After running the script, the results can be retrieved be checking the logs of the pod named "stresstest-. Command to read the logs:
 ```
 kubectl log <pod-ID> -n stresstest
 ```
-
 ## Hvordan parse resultater fra .txt til .csv
 Scriptet "parse.py" tar inn 1 .txt fil og skriver den om til .csv format.
 For å benytte egne filer må scriptet redigeres slik at filnavnet, som er plassert nederst i scriptet, passer med .txt filen som skal parses.
