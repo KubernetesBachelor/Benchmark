@@ -1,7 +1,7 @@
 ## Performing the performance test
 The "stress_test.sh" Bash script runs the performance tests using the tools Sysbench and Fio. The script is referenced in "Dockerfile" to build a Docker image named "stresstest:v1", which is then used to run a Kubernetes Job defined in the file "stresstest-job.yaml"
 
-###Command to build the image and deploy the Job
+### Command to build the image and deploy the Job
 ```
 eval $(minikube docker-env)
 sudo docker build -t stresstest:v1 .
