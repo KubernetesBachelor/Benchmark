@@ -3,6 +3,8 @@ The "MiljøOppsett" folder contains documentation for how the Kubernetes environ
 
 During an initial test phase, Grafana was used to visualize resource usage in the Kubernetes cluster. The folder "MiljøOppsett" contains a setup guide, and the captured images are stored in the "GrafanaBilder" folder. These results were not used in the paper, or the bachelorer thesis.
 
+The "Rådata" folder contains the raw data from our tests.
+
 ### How to parse results from .txt to .csv
 The script "parse.py" takes a single .txt file as input and converts it to .csv format.
 To use custom files, the script must be edited so that the filename located at the bottom matches the .txt file you want to parse.
