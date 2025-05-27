@@ -7,7 +7,7 @@ eval $(minikube docker-env)
 sudo docker build -t stresstest:v1 .
 kubectl apply -f stresstest-job.yaml
 ```
-After running the script, the results can be retrieved be checking the logs of the pod named "stresstest-. Command to read the logs:
+After running the script, the results can be retrieved be checking the logs of the pod named "stresstest-<pod-ID>". Command to read the logs:
 ```
 kubectl log <pod-ID> -n stresstest
 ```
