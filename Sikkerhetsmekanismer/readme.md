@@ -1,12 +1,12 @@
-### Generelt
-I mappen miljøoppsett finnes dokumentasjon for hvordan Kubernetes-miljøet ble satt opp, hvordan de forskjellige sikkerhetsmekanismene ble implementer og hvordan ytelsestestene ble kjørt.
+### General
+The "MiljøOppsett" folder contains documentation for how the Kubernetes environment was configured, how the different security mechanisms were implemented, and how the performance tests were executed.
 
-Under en initiell testrunde ble Grafana brukt til å visualisere ressursbruken til Kubernetes-klusteret. Det finnes en guide for å sette dette opp i miljøoppsett-mappen og bildene som ble produsert ligger i GrafanaBilder-mappen, men disse resultatene ble ikke benyttet i bacheloroppgaven.
+During an initial test phase, Grafana was used to visualize resource usage in the Kubernetes cluster. The folder "MiljøOppsett" contains a setup guide, and the captured images are stored in the "GrafanaBilder" folder. These results were not used in the paper, or the bachelorer thesis.
 
-### Hvordan parse resultater fra .txt til .csv
-Scriptet "parse.py" tar inn 1 .txt fil og skriver den om til .csv format.
-For å benytte egne filer må scriptet redigeres slik at filnavnet, som er plassert nederst i scriptet, passer med .txt filen som skal parses.
+### How to parse results from .txt to .csv
+The script "parse.py" takes a single .txt file as input and converts it to .csv format.
+To use custom files, the script must be edited so that the filename located at the bottom matches the .txt file you want to parse.
 
-### Hvordan bruke plot-scriptene
-Scriptene "linjediagram.py", "søylediagram.py" og "tabell.py" tar inn 5 csv filer, en for hver av testene, og lager henholdsvis linjediagrammer, søylediagrammer og tabeller (som viser avvik i prosent) ut ifra disse.
-For å benytte egne filer må scriptet redigeres slik at filnavnene, som er plassert øverst i scriptet, passer med .csv filene og etikkenene blir passende.
+### How to use the plotting scripts
+The scripts "linjediagram.py", "søylediagram.py" og "tabell.py" take 5 csv files, one for each of the tests, and generates line charts, bar charts and tables with percentage deviation, respectively.
+To use custom files, you must edit the script so the filenames, defined at the top, matches you .csv files and change the labels accordingly.
