@@ -9,5 +9,5 @@ This folder contains documentation for the execution of how Kubernetes performan
 Attached are the configuration files for the different security mechanisms and how they were implemented.
 The performance script and guide for using it is also attached.
 
-Grafana was used to monitor resource use in the cluster while performing the tests. Implementation and pictured are provided in the folder, but these results are not used in the paper or bachelor thesis.
+Grafana was used to monitor resource usage in the cluster while performing the tests. Implementation and pictured are provided in the folder, but these results are not used in the paper or bachelor thesis.
 
