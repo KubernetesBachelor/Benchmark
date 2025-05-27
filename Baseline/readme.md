@@ -11,23 +11,21 @@ After running the script, the results can be retrieved be checking the logs of t
 ```
 kubectl log <pod-ID> -n stresstest
 ```
-## Hvordan parse resultater fra .txt til .csv
-Scriptet "parse.py" tar inn 1 .txt fil og skriver den om til .csv format.
-For å benytte egne filer må scriptet redigeres slik at filnavnet, som er plassert nederst i scriptet, passer med .txt filen som skal parses.
+##How to parse results from .txt to .csv
+The script "parse.py" takes a single .txt file as input and converts it to .csv format. 
+To use custom files, the script must be edited so that the filename located at the bottom matches the .txt file you want to parse.
 
-## Hvordan bruke plot-scriptene
-Scriptene "linjediagram.py" og "søylediagram.py" tar inn 4 csv filer, en for hver av testene, og lager henholdsvis linjediagrammer, søylediagrammer og tabeller ut ifra disse.
-For å benytte egne filer må scriptet redigeres slik at filnavnene, som er plassert øverst i scriptet, passer med .csv filene og etikkenene blir passende.
+##How to use the plotting scripts
+The scripts "linjediagram.py" and "søylediagram.py" take 5 csv files, one for each of the tests, and generates line charts, bar charts and tables with percentage deviation, respectively. To use custom files, you must edit the script so the filenames, defined at the top, matches you .csv files and change the labels accordingly.
 
-
-## Vertsmaskin oppsett
+## Host machine specifications
 - RAM: 8GB
 - CPU: Intel(R) Core(TM)i7-8550U CPU@ 1.80GHz
 - Lagring: SSD: LITEON CV1-DB256, 256GB
 - serie nr: SD0J21064L1TH59105X5
 - OS: Ubuntu 22.04.4
 
-## Virtuell maskin oppsett
+## Virtual machine specifications
 - RAM: 4GB
 - 1x prosessor, 4 kjerner
 - hard disk (SCSI): 64GB
@@ -35,8 +33,8 @@ For å benytte egne filer må scriptet redigeres slik at filnavnene, som er plas
 - I/O controller: LSI Logic SAS
 - Disk type: SATA
 
-## Konteiner oppsett
-### Installer Docker
+## Container Setup
+### Install Docker
 ```
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -56,22 +54,22 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 sudo docker run hello-world
 ```
-### Bygge image
+### Build image
 ```
 sudo docker build -t <Navn_til_konteiner> .
 ```
-### Kjøre konteiner
+### Run container
 ```
 sudo docker run -v /home/ubuntu/docker_2/docker_assignment:/app konteiner
 ```
-## Kubernetes oppsett
-### Intaller Kubectl
+## Kubernetes setup
+### Intall Kubectl
 ```
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 kubectl version --client
 ```
-### Installer Docker
+### Install Docker
 ```
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -91,17 +89,17 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 sudo docker run hello-world
 ```
-### Installer Minikube
+### Install Minikube
 ```
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 ```
-### Bygge image
+### Build image
 ```
 eval $(minikube docker-env)
 docker build -t stresstest:v1 .
 ```
-## Bygge Pod
+## Build Pod
 ```
 kubectl apply -f stresstest-job.yaml
 ```
