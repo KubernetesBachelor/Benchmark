@@ -1,30 +1,33 @@
-## Gjennomføre ytelsestest
-"stress_test.sh" er bash scriptet som gjennomfører ytelsestestene ved å bruke verktøyene sysbench og fio. Scriptet blir benyttet i "Dockerfile" for å lage et image med navn "stresstest:v1". Dette Docker imaget blir brukt for å kjøre en Kubernetes-Job ut ifra filen "stresstest-job.yaml".
-Kommando for å bygge imaget og iversette Job'en
+## Performing the performance test
+The "stress_test.sh" Bash script runs the performance tests using the tools Sysbench and Fio. The script is referenced in "Dockerfile" to build a Docker image named "stresstest:v1", which is then used to run a Kubernetes Job defined in the file "stresstest-job.yaml"
+
+Command to build the image and deploy the Job
 ```
 eval $(minikube docker-env)
 sudo docker build -t stresstest:v1 .
 kubectl apply -f stresstest-job.yaml
 ```
-Etter at scriptet har kjørt ferdig vil resultatene kunne blitt hentet ut ved sjekke loggene til poden som har navn "stresstest-podID".
-Kommando for å lese logger
+After running the script, the results can be retrieved be checking the logs of the pod named "stresstest-<PodID>.
+Command to read the logs:
 ```
 kubectl log <pod-ID> -n stresstest
 ```
-## Implementering av sikkerhetsfunskjoner
-Alle komponentene i Kubernetes-klusteret blir plassert i et namespace med navn "stresstest". I denne dokumentasjonen finnes det to forskjellige .yaml filer som lager et namespace med samme navn, "stresstest". .yaml filen med navn "namespace.yaml" lager et default namespace og blir implementert hvis man ikke skal benytte Pod Security Admission. Hvis man skal benytte Pod Security Admission og "namespace.yaml" har blitt deployert må man slette dette namespace før Pod Security Admission kan bli implementert.
+## Implementing security features
+All components in the Kubernetes cluster are placed in a namespace called "stresstest". This documentation includes two different .yaml files that create a namespace with this name. The file "namespace.yaml" creates a default namespace and is used when Po Security Admission is not enabled. If "namespace.yaml" has already been implemented, it must be deleted before deploying Pod Security Admission, as borht define the same namespace.
 
 ### Pod Security Admission
-Pod Security Admission blir lagt til ved å sette Pod Security Standarder til et namespace. <br />
-"PSA-namespace.yaml" vil lage et nytt namespace med navn "stresstest" som benytter Pod Security Admission. Dette nye namespacet benyttes til alt som omhandler disse ytelsestestene.
-Kommandoer for å implementere Pod Security Admission
+Pod Security Admission is added by applying Pod Security Standards to a namespace.
+The file "PSA-namespace.yaml" creates a namepsace named "stresstes" with PSA enabled. This namespace is used for all performance testing involing PSA.
+
+Command to implement Pod Security Admission
 ```
 kubectl apply -f PSA-namespace.yaml
 ```
 
 ### Auditing
-Auditing må bli configurert til å starte med klusteret. Det holder med å kjøre "minikube stop" for så å starte med rette konfigurasjoner, ved ny oppstart vil Prometheus og Grafana fungere som normalt. <br />
-Ved å kjøre følgende kommandoer vil audity policyen "audit-policy.yaml" bli iverksatt.
+Auditing must be configured to start along with the cluster. It's sufficient to stop and restart Minikube with the correct configuration. prometheus and Grafana will continue to function as usual after a restart.
+
+Commands to enable audit policy "audit-policy.yaml".
 ```
 mkdir -p ~/.minikube/files/etc/ssl/certs
 cp audit-policy.yaml ~/.minikube/files/etc/ssl/certs/
@@ -32,22 +35,23 @@ minikube start --extra-config=apiserver.audit-policy-file=/etc/ssl/certs/audit-p
 ```
 
 ### Role Based Access Control
-For å iverksette Role Based Access Control til en Job i Kubernetes vil du trenge en Service Account for å binde RBAC-reglene til Job'en <br />
-Et eksempel på en slik Service Account er laget i "job-SA.yaml" <br />
-En RBAC settes opp ved å lage en Role som inneholder hvilke rettigheter en skal ha tilgjengelig, og en Role Binding som knytter rettighetene til et Namespace (i dette tilfellet). <br />
-Role er laget i "job-role.yaml" <br />
-RoleBinding er laget i "job-rolebinding.yaml" <br />
+To apply RBAC to a Kubernetes Job, you need a Service Acount to bind RBAC rules to the Job.
+An example is provied in "job-SA.yaml".
+RBAC is configured by defining a Role that specifies permissions, and a Role Binding that binds those permission to a namespace (in this example).
+
+Role is created in "job-role.yaml" <br />
+RoleBinding is created in "job-rolebinding.yaml" <br />
 <br />
-Kommandoer for å iverksette RBAC
+Commands to apply RBAC:
 ```
 kubectl apply -f job-SA.yaml
 kubectl apply -f job-role.yaml
 kubectl apply -f job-rolebinding.yaml
 ```
 
-## Sette opp Grafana
-Under forklares hvordan Prometheus og Grafana ble satt opp i Kubernetes-klusteret
-### Forutsetninger <br />
+## Setting up Grafana
+Below is the process used to set up Prometheus and Grafana in the Kubernetes cluster.
+### Requirements <br />
 Minikube <br />
 Kubectl  <br />
 ### Helm <br />
@@ -72,12 +76,12 @@ helm install grafana grafana/grafana
 kubectl expose service grafana --type=NodePort --target-port=3000 --name=grafana-ext
 minikube service grafana-ext
 ```
-Bruk følgende kommando for å hente passord til Grafana, brukernavnet er "admin"
+Use the following command to retrieve the Grafana "admin" passwordB
 ```
 kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-password}" | ForEach-Object { [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($_)) }
 ```
-Videre ble prometheus lagt til som datakilde ved å tilknytte IP'en som ble gitt når prometheus sin service ble eksponert. <br />
-Grafana ble satt opp med dashboard Node Exporter, ID:1860
+Prometheus was then added as a data source in Grafana by using the IP address provided when exposing the Prometheus service.
+Grafana was configured with the dashboard Node Exporter, ID:1860
 
-### Kilder
+### Sources
 [Denne Guiden](https://medium.com/@gayatripawar401/deploy-prometheus-and-grafana-on-kubernetes-using-helm-5aa9d4fbae66) ble fulgt for å sette opp Grafana og Prometheus <br />
